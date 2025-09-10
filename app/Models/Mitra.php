@@ -77,44 +77,80 @@ class Mitra
             ),
             new Mitra(
                 8,
-                'Kertajati',
+                'Al Jabbar Kertajati',
                 'https://asset-2.tribunnews.com/priangan/foto/bank/images/lgklfuklyfi.jpg',
-                'Dibangun pada tahun 2018...',
+                'Masjid Al-Jabbar Kertajati dibangun sebagai salah satu ikon baru di wilayah Kabupaten Majalengka, tepatnya di kawasan Kertajati yang terus berkembang setelah hadirnya Bandara Internasional Jawa Barat (BIJB). Kehadiran masjid ini dimaksudkan untuk menjadi pusat ibadah, dakwah, sekaligus landmark religius yang memperkuat identitas kawasan sebagai gerbang baru Jawa Barat.
+
+                Nama “Al-Jabbar” sendiri merupakan salah satu Asmaul Husna yang berarti Yang Maha Perkasa, melambangkan kebesaran Allah sekaligus tekad kuat Pemerintah Provinsi Jawa Barat untuk menghadirkan masjid yang bukan hanya berfungsi sebagai tempat ibadah, tetapi juga pusat pembinaan umat, pendidikan, dan kegiatan sosial masyarakat. Dengan demikian, Masjid Al-Jabbar Kertajati diharapkan mampu menghadirkan cahaya spiritual sekaligus menjadi ruang berkumpul yang bermanfaat bagi warga lokal maupun para pendatang.
+
+                Secara arsitektural, masjid ini dirancang dengan gaya modern berpadu dengan sentuhan islami yang elegan. Bangunannya dilengkapi dengan ruang utama salat yang luas, kubah besar yang menjadi pusat perhatian, serta area pendukung yang membuat jamaah merasa nyaman. Lokasinya yang strategis di jalur akses menuju bandara menjadikan Masjid Al-Jabbar sebagai tempat transit sekaligus destinasi wisata religi bagi masyarakat yang berkunjung ke Kertajati.
+
+                Dengan segala keistimewaannya, Masjid Al-Jabbar Kertajati tidak hanya hadir sebagai sarana spiritual, tetapi juga menjadi simbol perkembangan kawasan Kertajati, serta wujud nyata bagaimana pembangunan infrastruktur dapat selaras dengan nilai-nilai keagamaan dan kebudayaan masyarakat Jawa Barat.',
                 'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
             ),
             new Mitra(
                 9,
                 'Masjid Raya Bandung',
                 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Masjid_Raya_Bandung_dan_Alun-alun_Bandung_%28potrait%29.jpg/1200px-Masjid_Raya_Bandung_dan_Alun-alun_Bandung_%28potrait%29.jpg',
-                'Merupakan pusat kegiatan Islam di wilayah Cikalong...',
+                'Masjid Raya Bandung, yang dahulu dikenal sebagai Masjid Agung Bandung, merupakan salah satu ikon religius sekaligus sejarah di Kota Bandung. Masjid ini pertama kali dibangun pada tahun 1810, bersamaan dengan pemindahan pusat Kabupaten Bandung dari Dayeuhkolot ke Alun-Alun Bandung oleh Bupati Wiranatakusumah II. Pada awalnya, bangunan masjid sangat sederhana, berdinding anyaman bambu dengan atap ijuk, dan menjadi pusat kegiatan keagamaan bagi masyarakat sekitar alun-alun.
+
+                Seiring berjalannya waktu, masjid ini mengalami banyak perubahan dan renovasi besar. Atapnya mulai diganti genteng pada 1875, lalu ditambahkan serambi serta menara kecil pada dekade 1930-an. Renovasi terbesar pertama dilakukan menjelang Konferensi Asia Afrika tahun 1955, di mana masjid diperbarui dengan gaya modern dan kubah berbentuk kubus runcing. Renovasi serupa kembali dilakukan pada tahun 1967 dan 1973, sehingga wajah masjid semakin berubah mengikuti perkembangan arsitektur masa itu.
+
+                Transformasi paling signifikan terjadi pada periode 2001 hingga 2003, ketika pemerintah Provinsi Jawa Barat melakukan perombakan total. Masjid kemudian tampil megah dengan kubah bawang berwarna emas, dua menara kembar setinggi 81 meter, serta halaman luas yang kini menjadi ruang publik bagi warga. Pada 4 Juni 2003, masjid ini diresmikan kembali dan diberi nama baru, yaitu Masjid Raya Bandung Provinsi Jawa Barat.
+
+                Kini, Masjid Raya Bandung tidak hanya berfungsi sebagai tempat ibadah bagi ribuan jamaah, tetapi juga menjadi pusat dakwah, pendidikan Islam, dan kegiatan sosial masyarakat. Lokasinya yang berada tepat di sisi barat Alun-Alun Bandung membuat masjid ini menjadi salah satu destinasi wisata religi yang populer, sekaligus simbol kebanggaan masyarakat Jawa Barat.',
                 'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
             ),
             new Mitra(
                 10,
                 'Masjid Raya Raudhatul Irfan',
                 'https://suaramasjid.com/wp-content/uploads/2016/09/masjid_raya_raudhatul_irfan-1.jpg',
-                'Masjid ini didirikan pada tahun 1810...',
+                'Pembangunan Masjid Raya Raudahtul Ifan diprakarsai oleh Provinsi Jawa Barat pada masa kepemimpinan Gubernur Ahmad Heriawan pada tahun 2012 dan di resmikan pada tanggal 7 juli 2014 oleh Bapak Gubernur. Masjid Raya Raudhatul Irfan berdiri megah di sepanjang Jalan Raya Sukabumi–Bogor, tepatnya di Desa Cibolang Kaler, Kecamatan Cisaat, Kabupaten Sukabumi. Ide pembangunannya bermula dari inisiatif Pemerintah Provinsi Jawa Barat bersama Dinas Bina Marga Jabar, dengan peletakan batu pertama oleh Gubernur Ahmad Heryawan pada 29 Januari 2013. Setelah melewati proses pembangunan, masjid ini resmi diresmikan pada 7 Juli 2014, dengan harapan dapat mempermudah masyarakat menunaikan ibadah di sepanjang jalur utama—terutama bagi mereka yang dalam perjalanan—serta menjadi pusat kegiatan keagamaan dan sosial.
+
+                Dibangun di atas lahan seluas 9,000 m² dengan luas bangunan utama sekitar 900 m², masjid ini dilengkapi fasilitas yang mendukung kenyamanan jamaah, seperti area parkir luas, taman, dan perkantoran bagi pengurus DKM. Ciri khas arsitektur masjid ini terlihat dari interior dominan warna hijau-putih yang dihiasi ornamen bergaya Persia, serta ruang utama yang luas dengan karpet indah dan kaligrafi di setiap sudutnya. Nama “Raudhatul Irfan” sendiri diambil dari kitab tafsir populer hasil karya ulama besar Sukabumi, K.H. Ahmad Sanusi, yang bermakna "taman pengetahuan", sebagai cerminan harapan agar masjid ini menjadi pusat pembelajaran dan peradaban Islam di Sukabumi.
+
+                Sebagai pusat spiritual dan sosial, Masjid Raya Raudhatul Irfan aktif menyelenggarakan berbagai kegiatan, seperti pengajian rutin setiap Ahad pagi (dikenal sebagai “JIHAD”), kajian oleh organisasi seperti HMI atau PMII, serta donor darah, panti asuhan, dan pembagian takjil pada bulan Ramadan. Lokasinya yang strategis di jalur utama juga membuat masjid ini menjadi tempat transit sekaligus peristirahatan bagi jamaah dan pelancong, memadukan fungsi religius dan kebersamaan.',
                 'Ketua DKM: Dr. H. Abdul Malik, dll.'
             ),
             new Mitra(
                 11,
                 'Pusdai',
                 'https://karyakubah.com/wp-content/uploads/2020/01/Pusdai.jpg',
-                'Dibangun pada tahun 2018...',
+                'Pemerintah Provinsi Jawa Barat sejak lama memiliki cita-cita untuk mewujudkan sebuah Pusat Dakwah Islam (Pusdai) sekaligus masjid raya yang representatif di ibu kota provinsi, yaitu Kota Bandung. Hingga saat itu, Pemerintah Kotamadya Bandung sendiri belum memiliki bangunan khusus yang dapat menampung fungsi tersebut.
+
+                Rencana pembangunan Pusdai sebenarnya sudah ada sejak lama, dan merupakan kelanjutan dari gagasan yang dicetuskan pada tahun 1951. Perencanaan ini juga telah disesuaikan dengan Rencana Umum Tata Ruang Kota Bandung.
+
+                Secara pengertian, Pusat Dakwah Islam (Pusdai) Jawa Barat dapat dipahami sebagai “masjid yang diperluas”. Artinya, masjid tidak hanya berfungsi sebagai tempat ibadah, melainkan juga menjadi pusat aktivitas pengabdian agama Islam bagi pembangunan masyarakat, sebagaimana tujuan pokok yang disebutkan dalam Al-Qur’an. Seiring perkembangan zaman, baik dalam lingkup dunia Islam secara umum maupun di Indonesia khususnya, Pusdai hadir sebagai wadah untuk berbagai kegiatan umat Islam, baik yang berakar dari tradisi masa lampau, kebutuhan saat ini, maupun tantangan di masa depan.
+
+                Kehadiran Pusdai juga dimaksudkan untuk memelihara dan mengembangkan nilai-nilai kebudayaan Islam, yang berjalan beriringan dengan berbagai sarana keislaman yang sudah ada, termasuk hasil swadaya masyarakat. Dengan demikian, Pusdai berfungsi sebagai pusat penyebaran ajaran Islam sekaligus pusat kebudayaan Islam di Jawa Barat.
+
+                Lebih jauh, Pusdai Jawa Barat merupakan upaya nyata dalam merespons kehidupan umat manusia yang mencakup hubungan dengan Tuhan, sesama manusia, dan alam semesta. Kompleks Pusdai sendiri dirancang untuk dapat menampung tiga kelompok aktivitas utama, yaitu keagamaan, sosial, dan kultural.
+
+                Dengan keberadaannya, Pusdai diharapkan menjadi pusat pengembangan umat Islam menuju masyarakat yang tercerahkan, berdaya cipta, serta mampu melakukan pembaruan secara ilmiah dan berkelanjutan.',
                 'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
             ),
             new Mitra(
                 12,
                 'At Tawuun',
                 'https://uloom.id/wp-content/uploads/2018/11/Masjid-Attaauwn1-1130x650.jpg',
-                'Merupakan pusat kegiatan Islam di wilayah Cikalong...',
+                'Masjid At-Tawun adalah salah satu masjid ikonik yang terletak di kawasan Puncak, Kabupaten Bogor, Jawa Barat. Masjid ini dibangun untuk memenuhi kebutuhan tempat ibadah bagi masyarakat setempat maupun para wisatawan yang melintasi jalur Puncak, yang setiap harinya ramai dilewati pengunjung dari berbagai daerah. Kehadiran Masjid At-Tawun tidak hanya sebagai sarana ibadah, tetapi juga sebagai ruang peristirahatan dan pusat kegiatan keagamaan bagi umat Islam di kawasan tersebut.
+
+                Dibangun di lahan yang cukup luas dengan suasana sejuk khas pegunungan, Masjid At-Tawun menawarkan pengalaman spiritual yang berpadu dengan keindahan alam. Arsitekturnya menampilkan desain modern dengan sentuhan Islami, serta ruang dalam yang lapang sehingga mampu menampung banyak jamaah sekaligus. Lingkungan sekitar masjid ditata dengan taman hijau dan area terbuka yang memberikan kenyamanan bagi pengunjung, baik untuk beribadah maupun sekadar beristirahat dalam perjalanan.
+
+                Seiring berjalannya waktu, Masjid At-Tawun berkembang menjadi salah satu destinasi wisata religi populer di jalur Puncak. Banyak jamaah dan wisatawan yang singgah untuk melaksanakan salat, mengikuti pengajian, atau menikmati suasana teduh di sekitar masjid. Fungsinya yang menyatukan aspek religius, sosial, dan rekreasi menjadikan Masjid At-Tawun bukan hanya simbol spiritual, tetapi juga bagian penting dari identitas kawasan Puncak sebagai wilayah wisata dan peristirahatan.',
                 'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
             ),
             new Mitra(
                 13,
                 'Nurul Quran',
                 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nobN95OVm8izSUOPzvcJIVAyPabeKDoh2HrSP95RFkQlSBpoVzyofoQxXgWDfjpL8ufcPg0RnylYh_z4xpZjraxRtf9QiiAy5Bxnqp_5iTfz0hDGCnVLP7xe91u8Zhro3LiEAw=s1360-w1360-h1020-rw',
-                'Masjid ini didirikan pada tahun 1810...',
+                'Mesjid Nurul Qur’an menjadi salah satu penunjang kegiatan sholat 5 waktu untuk kegiatan yang ada di area gedung Lembaga Pengembangan Tilawatil Qur’an (LPTQ) Provinsi Jawa Barat. Masjid Nurul Qur’an merupakan salah satu masjid representatif yang dibangun oleh Pemerintah Provinsi Jawa Barat sebagai bagian dari upaya menyediakan sarana ibadah yang layak sekaligus pusat pembinaan umat Islam. Kehadirannya dimaksudkan untuk memperkuat fungsi masjid tidak hanya sebagai tempat salat, tetapi juga sebagai ruang dakwah, pendidikan, dan pengembangan budaya Islam di tingkat provinsi.
+
+                Nama “Nurul Qur’an” yang berarti cahaya Al-Qur’an dipilih untuk menegaskan peran masjid ini sebagai sumber pencerahan spiritual bagi masyarakat. Dengan semangat tersebut, masjid ini diharapkan menjadi pusat kegiatan yang menginspirasi umat Islam untuk menjadikan Al-Qur’an sebagai pedoman hidup, baik dalam kehidupan pribadi, bermasyarakat, maupun dalam membangun peradaban yang berakhlak mulia.
+
+                Secara arsitektural, Masjid Nurul Qur’an dibangun dengan desain modern yang berpadu dengan nuansa Islami. Ruang dalamnya luas untuk menampung banyak jamaah, sementara lingkungan sekitarnya ditata agar nyaman sebagai tempat beribadah maupun kegiatan keagamaan lainnya. Kehadirannya juga melengkapi jaringan masjid-masjid besar di Jawa Barat yang berfungsi sebagai simbol religius, pusat dakwah, serta sarana kebersamaan umat.
+
+                Dengan segala potensi dan perannya, Masjid Nurul Qur’an diharapkan mampu menjadi pusat pembinaan umat Islam Jawa Barat, tempat berkumpulnya masyarakat untuk memperdalam ilmu agama, mempererat ukhuwah, serta menjadikan masjid sebagai pusat kegiatan sosial yang bermanfaat bagi seluruh lapisan masyarakat.',
                 'Ketua DKM: Dr. H. Abdul Malik, dll.'
             ),
             // Tambahkan data dummy masjid lainnya di sini
