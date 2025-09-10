@@ -37,42 +37,81 @@ class Mitra
                 2,
                 'Al Jabbar Cikalong',
                 'https://static.vecteezy.com/system/resources/previews/008/422/239/large_2x/tasikmalaya-west-java-indonesia-june-04-2022-portrait-of-al-jabbar-cikalong-mosque-free-photo.jpg',
-                'Merupakan pusat kegiatan Islam di wilayah Cikalong...',
+                'Masjid Al-Jabbar Cikalong terletak di Jalan Raya Pantai Selatan, Desa Cimanuk, Kecamatan Cikalong, KabupatenTasikmalaya. Dibangun pada tahun 2017 oleh Pemerintah Provinsi Jawa Barat, masjid ini merupakan bagian dari inisiatif pembangunan masjid-masjid Al-Jabbar di berbagai wilayah Jawa Barat, termasuk Sukabumi, Cianjur, Majalengka, dan Bandung. Berdiri di atas lahan seluas sekitar dua hektar, Masjid Al- Jabbar Cikalong menjadi landmark penting di jalur wisata selatan Jawa Barat. Lokasinya yang strategis, tepat di seberang Objek Wisata Pantai Karangtawulan, menjadikan masjid ini sebagai tempat istirahat dan ibadah bagi para pelancong yang melintasi kawasan tersebut. Masjid ini dirancang dengan arsitektur megah dan memiliki tiga lantai yang dilengkapi dengan ornamen khas. Selain digunakan untuk shalat lima waktu, masjid ini juga menjadi pusat kegiatan keagamaan seperti pengajian dan peringatan hari besar Islam. Meskipun belum digunakan untuk shalat Jumat secara rutin, masjid ini telah menjadi tempat berkumpulnya jamaah dari berbagai daerah, terutama saat pengajian besar PHBI. Sebagai pusat ibadah dan aktivitas sosial, Masjid Al-Jabbar terus berupaya meningkatkan pelayanan, kenyamanan, serta fasilitasnya demi tercapainya fungsi masjid sebagai tempat pembinaan umat yang bersih, teratur, dan bermanfaat bagi semua kalangan.',
                 'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
             ),
             new Mitra(
                 3,
                 'Al Jabbar Plumbon',
                 'https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2017/10/menara-ambruk-pembangunan-masjid-al-jabbar-plumbon-kembali-dilanjut_m_161055.jpeg',
-                'Masjid ini didirikan pada tahun 1810...',
+                'Masjid Al Jabbar Plumbon adalah salah satu masjid yang dibangun oleh Pemerintah Provinsi Jawa Barat sebagai bagian dari upaya memperkuat infrastruktur keagamaan dan sosial di wilayah tersebut. Masjid ini berdiri kokoh di Desa Plumbon, Kecamatan Plumbon, Kabupaten Cirebon, dan diresmikan pada tahun 2019. Terletak di atas tanah seluas 26.165 m², masjid ini memiliki desain modern dan fasilitas yang mendukung kenyamanan bagi para jamaah dalam melaksanakan ibadah.
+
+Dengan visi untuk menjadi pusat kegiatan keagamaan dan sosial yang memberikan manfaat kepada masyarakat sekitar, Masjid Al Jabbar tidak hanya berfungsi sebagai tempat ibadah, tetapi juga sebagai pusat pemberdayaan umat Islam di lingkungan Kecamatan Plumbon. Masjid ini berkomitmen untuk menciptakan suasana yang kondusif bagi pengembangan spiritualitas, sekaligus mempererat hubungan sosial antarwarga melalui berbagai program yang melibatkan jamaah dan masyarakat.
+
+Disamping itu Masjid Al Jabbar juga sebagai tempat yang mengutamakan nilainilai ukhuwah Islamiyah dan kepedulian sosial, serta memiliki berbagai program yang dirancang untuk memenuhi kebutuhan spiritual dan sosial masyarakat. Programprogram ini mencakup ibadah rutin seperti pelaksanaan sholat lima waktu, sholat Jumat, serta kegiatan keagamaan lainnya seperti Khotmil Quran, Yasin dan Tahlil, serta peringatan Maulid Nabi Muhammad SAW. Selain itu, masjid ini juga mengadakan pengajian bulanan dan tahunan yang melibatkan jamaah dalam kegiatan pendidikan agama yang mendalam.
+
+Dengan dedikasi yang tinggi terhadap kemaslahatan umat, Masjid Al Jabbar terus berupaya untuk menjadi pusat penguatan nilai-nilai keagamaan sekaligus berperan aktif dalam kegiatan sosial di masyarakat sekitar.',
                 'Ketua DKM: Dr. H. Abdul Malik, dll.'
             ),
             new Mitra(
                 4,
                 'Al Jabbar Cimangkok',
                 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4npxsU5WSKlkUYxBvSt8gqxTAsd4whdfc4XHa2wjh0raDUWfpWOfjQmIJCAstDu0j6dtAgubEUJWRo7C6i_C-XjmDT8eKnRSgVYh6eoXViz8qIzcMWvxUxA5H9kju5KAK9MRj7m1uA=s1360-w1360-h1020-rw',
-                'Masjid ini didirikan pada tahun 1810...',
+                'Masjid aljabar merupakan masjid yang dibangun oleh pemprov jabar yang berada di atas tanah milik perhutani yang di bangun pada tahun 2016 sd 2019. ',
                 'Ketua DKM: Dr. H. Abdul Malik, dll.'
             ),
             new Mitra(
                 5,
                 'Al Jabbar Cipeyeum',
                 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_kzj0Ycwnsz6LVs0695-S9E-zKxtQBJAsiakEXYdkRCvoK8jjmNOWh3-bcMV5iqpUgL6JWqTXcic9rmyNAM6ItYf2xTdYax1vYK5byQGUYovwqphsclmavBKeqLUuEe4PxiWR=s1360-w1360-h1020-rw',
-                'Dibangun pada tahun 2018...',
+                'Masjid Al Jabar Cipeuyeum merupakan salah satu masjid yang penting bagi masyarakat di Kecamatan Cipeuyeum, Kabupaten Cianjur. Keberadaan masjid ini diharapkan tidak hanya untuk memenuhi kebutuhan ibadah umat Islam, tetapi juga menjadi pusat kegiatan sosial dan pendidikan agama bagi warga setempat.
+
+1. Nama Masjid Al Jabar: Seperti yang sudah disebutkan sebelumnya, nama "Al Jabar" berasal dari salah satu nama Allah dalam agama Islam yang berarti "Yang Maha Memperbaiki". Nama ini mencerminkan harapan agar masjid ini dapat menjadi tempat yang dapat memperbaiki dan membimbing umat Islam dalam kehidupan mereka, baik dari segi spiritual, sosial, maupun moral.
+
+2. Pembangunan dan Tujuan Masjid: Masjid ini kemungkinan besar dibangun sebagai respons terhadap kebutuhan masyarakat Cipeuyeum akan tempat ibadah yang layak dan representatif. Selain sebagai tempat untuk shalat, masjid ini mungkin juga menjadi pusat kegiatan dakwah, pendidikan agama, dan kegiatan sosial lainnya, seperti pemberian zakat dan bantuan untuk yang membutuhkan.
+
+3. Peran dalam Masyarakat: Masjid Al Jabar tidak hanya berfungsi sebagai tempat ibadah, tetapi juga sebagai tempat untuk kegiatan keagamaan dan sosial. Program-program seperti pengajian, kegiatan kemasyarakatan, hingga pembinaan untuk anak-anak dan remaja sering kali diadakan di masjid-masjid seperti ini. Kehadiran masjid ini diharapkan dapat memperkuat ikatan sosial antarwarga dan memberikan dampak positif bagi pengembangan spiritual masyarakat.
+
+4. Konteks Geografis dan Sejarah Cipeuyeum: Cipeuyeum adalah sebuah kecamatan yang terletak di Kabupaten Cianjur, Jawa Barat. Wilayah ini dikenal dengan nuansa pedesaan yang kental dan masyarakat yang hidup dalam keseharian yang sangat bergantung pada nilai-nilai agama dan sosial. Masyarakat Cipeuyeum, seperti banyak daerah lainnya di Indonesia, sangat menghargai keberadaan masjid sebagai tempat untuk berkumpul dan menjalankan ibadah bersama.
+
+5. Perkembangan Seiring Waktu: Seiring berjalannya waktu, masjid seperti Masjid Al Jabar juga berperan penting dalam menjaga keberlanjutan kegiatan agama dan sosial di tingkat lokal. Selain menjadi tempat ibadah, masjid ini juga bisa menjadi wadah untuk kegiatan kemanusiaan seperti bantuan sosial, pendidikan, serta pengembangan keterampilan bagi warga sekitar.
+
+Kesimpulan
+Meskipun detail tentang sejarah spesifik pembangunan Masjid Al Jabar Cipeuyeum tidak terlalu mudah ditemukan di sumber-sumber umum, dapat dipahami bahwa masjid ini memiliki peran yang sangat penting dalam kehidupan spiritual dan sosial masyarakat setempat. Nama "Al Jabar" sendiri mencerminkan niat untuk menjadikan masjid ini sebagai tempat untuk memperbaiki, menyatukan, dan memberikan kedamaian bagi umat Islam di Cipeuyeum.',
                 'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
             ),
             new Mitra(
                 6,
                 'Al Jabbar Cibinong',
                 'https://scontent-cgk2-2.xx.fbcdn.net/v/t1.6435-9/93852223_2468040633416552_8496942949404246016_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF7MUspJ9_M7gGEYeL2SEaedRXUXkavqtJ1FdReRq-q0h43J4PdgqrPbP-tt6wqcHkC5cONPtqlP7GGfgW6ftbl&_nc_ohc=ZqeN9sS9kBEQ7kNvwG5wk9I&_nc_oc=AdnjRdlZPt8RQYnX0TnjH7yWUUs7yDjRDk8DfS9RpckkmlRaT2ApzxBJ9nqtHFHLb2I&_nc_zt=23&_nc_ht=scontent-cgk2-2.xx&_nc_gid=rgNUjjDGXU7SCjOWUG25rA&oh=00_AfXJg-7Xmf6-WcX82yceRACQO1-2ImYjP1p4rFDsPZWrTw&oe=68D5F1CC',
-                'Merupakan pusat kegiatan Islam di wilayah Cikalong...',
+                'Masjid al-jabbar Prov jabar dibangun di lokasi yang tepatnya berada di Kес. Cibinong Kab Cianjur jawabarat di jalan provinsi yang menghubungkan antar daerah di prov jabar, masjid tersebut dibangun sebagai simpul pemersatu antar daerah. masjid tersebut selain sebagai sarana ibadah umat muslim, lingkungan masjid tersebut juga dapat dipakai sebagai tempat peristirahatan dan sarana umum bagi orang yang melakukan perjalanan antar daerah, sehingga kondisi tersebut diharapkan dapat memakmurkan masjid dan warga sekitarnya.',
                 'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
             ),
             new Mitra(
                 7,
                 'Al Jabbar',
                 'https://citarumharum.jabarprov.go.id/eusina/uploads/2022/12/seninc4.jpg',
-                'Masjid ini didirikan pada tahun 1810...',
+                'Ridwan Kamil. Pada 2015, la diminta secara langsung oleh Gubernur Jabar Ahmad Heryawan untuk mendesain Al Jabbar. Al Jabbar adalah salah satu diantara 99 Nama Asmaul Husna yang artinya Maha Gagah; Maha Kuasa.
+
+Jawa Barat adalah provinsi dengan jumlah penduduk mayoritas Islam terbanyak di Indonesia dengan presentase penduduk beragama Islam Mencapai 97,8 %. Jawa Barat belum memiliki masjid raya yang bisa menampung dan menjadi pusat kegiatan keagamaan skala provinsi atau sekala besar.
+
+Masjid Raya Provinsi Bandung di Alun-Alun Kota Bandung ada di bawah kewenangan Pemerintah Kota Bandung. Masjid tersebut tidak mewakili 27 kota dan kabupaten Jawa Barat secara keseluruhan, seperti Majalengka, Pangandaran, Cirebon, Bekasi,Bogor, dan seterusnya.
+
+Kapasitas Masjid Raya Bandung atau Masjid Pusat Dakwah Islam di Jalan Diponegoro, Kota Bandung masih terbatas. Kapasitas disini adalah daya tampung jamaah di dalam masjid, maupun di areal luar masjid. Daya tampung Masjid Raya Bandung mencapai dalam dan luar 12.412 orang sedangkan Masjid PUSDAI menampung Jamaah 16.850 orang. dan untuk masjid raya Al Jabbar bisa menampung area dalam masjid sebanyak 35.000 orang dan untuk area luar bisa menampung 60.000 sampai 70.000 orang di total menjadi 105.000 Jamaah.
+
+Jawa Barat belum memiliki masjid yang menjadi ikon kokohnya nilai religius sebuah provinsi seperti halnya Masjid Istiqlal, Jakarta atau Masjid Kubah 99 Sulawesi Selatan. Secara garis besar Masjid Al Jabbar terdiri dari bangunan utama, marodh atau museum, plaza, taman tematik, danau retensi dan sarana penunjang
+
+Konsep gagasan masjid ini mencoba merespons konteks alam dan lingkungan Gedebage. Gedebage sendiri adalah kawasan yang punya masalah dengan air. Pada musim hujan kawasan ini rawan banjir, sebaliknya pada musim kering kawasan ini justru sering kekurangan air karena itu digagas adanya sebuah danau buatan sebagai penampang sekaligus penampung air. Usulan lokasi diinisiasi oleh Ridwan Kamil saat menjadi Wali Kota Bandung yang mengusulkan pada Gubernur Jabar Ahmad Heryawan saat itu agar Gedebage menjadi lokasi yang tepat untuk Al Jabbar
+
+Pertama, penampang Al Jabbar adalah kolam retensi yang sanggup menampung 210.000 meter kubik air dan menjadi pengendali banjir paling besar di wilayah Gedebage yang kerap dilanda banjir. Kedua, Bandung Timur sudah ditetapkan sebagai kawasan mandiri yang diharapkan infrastruktur yang dibangun bisa meningkatkan pergerakan orang dan barang serta sektor jasa. Masjid Al Jabbar tak hanya menjadi tempat ibadah, tapi akan menjadi pusat edukasi dan rekreasi, juga mendongkrak ekonomi masyarakat di kawasan Bandung Timur.
+
+Arsitektur Masjid Raya Al Jabbar dirancang dari perpaduan arsitektur modern kontemporer dengan aksentuasi masjid Turki yang dihiasi seni dekoratif khas Jawa Barat. Bangunan utama masjid tidak memisahkan dinding, atap, dan kubah, melainkan hasil peleburan ketiganya menjadi satu bentuk setengah bola raksasa. Ketiga sisi bangunan masjid dikelilingi sebuah danau besar yang, ibarat cermin, merefleksikan masjid menjadi berbentuk bulat utuh. Pada malam hari, kerlip tata cahaya menambah keindahan masjid. Selain keindahan, danau memiliki fungsi penting lain; sebagai retensi banjir sekaligus penyimpan air. Semua hal tersebut memang direncanakan dengan sangat seksama oleh sang arsitek, Mochamad Ridwan Kamil.
+
+Masjid Raya Al Jabbar mulai didesain tahun 2015 oleh Ridwan Kamil, sebuah kesempatan berharga yang disambut dengan gembira. Selain berlatar belakang arsitek, Ridwan Kamil juga selalu berkeinginan dapat menunaikan wasiat sang ayahanda yang berpesan agar jangan pernah berhenti mendesain masjid. Usulan pendirian masjid didasari beberapa alasan. Pertama, Jawa Barat sebagai sebuah provinsi belum memiliki Masjid Raya tingkat Pemerintah Daerah Provinsi. Kedua, Jawa Barat adalah sebuah provinsi dengan jumlah penduduk pemeluk agama Islam terbanyak di Indonesia. Ketiga, Jawa Barat juga memerlukan masjid besar yang dapat membanggakan warganya.
+
+Luas dan tingginya lantai salat dihiasi 27 relung terbuat dari relief tembaga yang ditempa dengan halus oleh tangan-tangan terampil para perajin yang sangat tekun. Relief berupa motif batik ini mewakili tiap kota dan kabupaten yang sekaligus mengekspresikan kekayaan seni masyarakat Jawa Barat. Lantai di bawah mezanin diterangi lampu kuningan karya perajin Gentur, Cianjur, dengan warna keemasannya yang mampu memberi rasa mewah. Di bagian dinding sisi barat, terdapat mihrab yang terhubung hingga mahkota di pucuk langit-langit yang melambangkan bahwa hanya kepada Allah SWT kita meminta.
+
+Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sejarah Rasulullah SAW, sejarah perkembangan Islam di tanah air, dan sejarah Islam di Jawa Barat. Hal ini menjadikan Masjid Raya Al Jabbar sebagai satu-satunya masjid di Indonesia yang memiliki pusat edukasi berupa museum dengan penggunaan teknologi digital terkini.',
                 'Ketua DKM: Dr. H. Abdul Malik, dll.'
             ),
             new Mitra(
