@@ -69,7 +69,7 @@
             <div id="masjid-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 @foreach ($mitras as $masjid)
                     <div class="masjid-card group" data-name="{{ strtolower($masjid->nama) }}">
-                        <a href="{{ route('masjid.show', ['id' => $masjid->id]) }}"
+                        <a href="{{ route('binaan.show', ['id' => $masjid->id]) }}"
                             class="block bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 overflow-hidden border border-gray-100 hover:border-green-200">
 
                             <!-- Image Container -->

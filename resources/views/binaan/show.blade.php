@@ -201,7 +201,7 @@
 
             <!-- Back Button -->
             <div class="mt-12 text-center">
-                <a href="{{ route('masjid.index') }}"
+                <a href="{{ route('binaan.index') }}"
                     class="inline-flex items-center space-x-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
