@@ -127,7 +127,7 @@
                                         <!-- Level 1: Ketua -->
                                         <div class="flex justify-center">
                                             <div class="org-card bg-gradient-to-r from-green-500 to-green-600 text-white">
-                                                <div class="font-bold">Ketua Takmir</div>
+                                                <div class="font-bold">Ketua </div>
                                                 <div class="text-sm opacity-90">Pimpinan Tertinggi</div>
                                             </div>
                                         </div>
@@ -137,11 +137,25 @@
                                             <div class="w-px h-8 bg-gray-300"></div>
                                         </div>
 
-                                        <!-- Level 2: Wakil & Sekretaris -->
-                                        <div class="flex justify-center space-x-12">
+                                        <!-- Level 2: Wakil Ketua -->
+                                        <div class="flex justify-center">
                                             <div class="org-card bg-gradient-to-r from-blue-500 to-blue-600 text-white">
                                                 <div class="font-bold">Wakil Ketua</div>
-                                                <div class="text-sm opacity-90">Pendamping</div>
+                                                <div class="text-sm opacity-90">Pendamping Pimpinan</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Connector Line -->
+                                        <div class="flex justify-center">
+                                            <div class="w-px h-8 bg-gray-300"></div>
+                                        </div>
+
+                                        <!-- Level 3: Bendahara & Sekretaris -->
+                                        <div class="flex justify-center space-x-12">
+                                            <div
+                                                class="org-card bg-gradient-to-r from-yellow-500 to-orange-500 text-white">
+                                                <div class="font-bold">Bendahara</div>
+                                                <div class="text-sm opacity-90">Keuangan</div>
                                             </div>
                                             <div
                                                 class="org-card bg-gradient-to-r from-purple-500 to-purple-600 text-white">
@@ -151,29 +165,28 @@
                                         </div>
 
                                         <!-- Connector Lines -->
-                                        <div class="flex justify-center space-x-12">
-                                            <div class="w-px h-8 bg-gray-300"></div>
+                                        <div class="flex justify-center">
                                             <div class="w-px h-8 bg-gray-300"></div>
                                         </div>
 
-                                        <!-- Level 3: Divisi-divisi -->
-                                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                                            <div
-                                                class="org-card bg-gradient-to-r from-yellow-500 to-orange-500 text-white">
-                                                <div class="font-bold text-sm">Bendahara</div>
-                                                <div class="text-xs opacity-90">Keuangan</div>
-                                            </div>
+                                        <!-- Level 4: Bidang Divisi -->
+                                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                            <!-- Bidang Idaroh -->
                                             <div class="org-card bg-gradient-to-r from-teal-500 to-cyan-500 text-white">
-                                                <div class="font-bold text-sm">Bid. Ibadah</div>
-                                                <div class="text-xs opacity-90">Kegiatan</div>
+                                                <div class="font-bold">Bidang Idaroh</div>
+                                                <div class="text-sm opacity-90">Pengelolaan Masjid</div>
                                             </div>
+
+                                            <!-- Bidang Imaroh -->
                                             <div class="org-card bg-gradient-to-r from-pink-500 to-rose-500 text-white">
-                                                <div class="font-bold text-sm">Bid. Dakwah</div>
-                                                <div class="text-xs opacity-90">Pengajian</div>
+                                                <div class="font-bold">Bidang Imaroh</div>
+                                                <div class="text-sm opacity-90">Pengembangan Masjid</div>
                                             </div>
+
+                                            <!-- Bidang Ri’ayah -->
                                             <div class="org-card bg-gradient-to-r from-indigo-500 to-blue-500 text-white">
-                                                <div class="font-bold text-sm">Bid. Sosial</div>
-                                                <div class="text-xs opacity-90">Kemasyarakatan</div>
+                                                <div class="font-bold">Bidang Ri’ayah</div>
+                                                <div class="text-sm opacity-90">Pemeliharaan Masjid</div>
                                             </div>
                                         </div>
                                     </div>
