@@ -1,11 +1,14 @@
 <?php
 
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\MasjidController;
-use App\Http\Controllers\DashboardSuperAdminController;
-use App\Http\Controllers\DashboardAdminController;
-use App\Http\Controllers\LaporanController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\BinaanController;
+use App\Http\Controllers\GaleriController;
+use App\Http\Controllers\MasjidController;
+use App\Http\Controllers\PublicController;
+use App\Http\Controllers\LaporanController;
+use App\Http\Controllers\DashboardAdminController;
+use App\Http\Controllers\DashboardSuperAdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PublicController::class, 'index'])->name('home');
+Route::get('/profil', [PublicController::class, 'profil'])->name('profil');
+Route::get('/struktur', [PublicController::class, 'struktur'])->name('struktur');
+Route::get('/kontak', [PublicController::class, 'kontak'])->name('kontak');
+Route::get('/masjid', [BinaanController::class, 'index'])->name('masjid.index');
+Route::get('/masjid/{id}', [BinaanController::class, 'show'])->name('masjid.show');
+Route::get('/galeri', [GaleriController::class, 'index'])->name('public.galeri');
 
 // Authentication routes (Laravel Breeze/Fortify/etc)
 require __DIR__.'/auth.php';

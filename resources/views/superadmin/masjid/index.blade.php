@@ -25,21 +25,20 @@
                 @forelse ($masjids as $masjid)
                     <div class="bg-white rounded-xl shadow-sm border p-6 hover:shadow-md transition-shadow">
                         <div class="flex items-center justify-between mb-4">
-                            <div class="p-3 bg-green-100 rounded-lg">
-                                <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z"/>
-                                </svg>
-                            </div>
-                            <div class="flex space-x-2">
-                                <a href="{{ route('superadmin.masjid.edit', $masjid) }}" 
-                                   class="text-blue-600 hover:text-blue-900 text-sm font-medium">
+                            <div class="flex items-center gap-2">
+                                <!-- Tombol Edit -->
+                                <a href="{{ route('superadmin.masjid.edit', $masjid) }}"
+                                class="inline-flex items-center px-3 py-1.5 bg-blue-100 text-blue-700 text-sm font-medium rounded-lg hover:bg-blue-200 transition">
                                     Edit
                                 </a>
-                                <form action="{{ route('superadmin.masjid.destroy', $masjid) }}" method="POST" 
-                                      onsubmit="return confirm('Yakin hapus masjid ini? Admin yang terkait akan kehilangan akses.')" class="inline">
+
+                                <!-- Tombol Hapus -->
+                                <form action="{{ route('superadmin.masjid.destroy', $masjid) }}" method="POST"
+                                    onsubmit="return confirm('Yakin hapus masjid ini? Admin yang terkait akan kehilangan akses.')" class="inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="text-red-600 hover:text-red-900 text-sm font-medium">
+                                    <button type="submit"
+                                        class="inline-flex items-center px-3 py-1.5 bg-red-100 text-red-700 text-sm font-medium rounded-lg hover:bg-red-200 transition">
                                         Hapus
                                     </button>
                                 </form>

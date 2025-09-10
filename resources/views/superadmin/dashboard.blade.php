@@ -1,14 +1,18 @@
 @extends('layouts.app')
 
 @section('header')
-    <div class="flex items-center justify-between">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Dashboard Super Admin
-        </h2>
-        <div class="text-sm text-gray-500">
-            Periode: {{ DateTime::createFromFormat('!m', $bulan)->format('F') }} {{ $tahun }}
-        </div>
+<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+    <h2 class="text-2xl font-bold text-gray-800">
+        Dashboard Super Admin
+    </h2>
+    <div class="inline-flex items-center px-4 py-2 rounded-xl bg-indigo-600 text-white shadow-md">
+        <span class="text-sm font-semibold">Periode:</span>
+        <span class="ml-2 text-base font-bold">
+            {{ DateTime::createFromFormat('!m', $bulan)->format('F') }} {{ $tahun }}
+        </span>
     </div>
+</div>
+
 @endsection
 
 @section('content')
@@ -53,11 +57,17 @@
                     </div>
                     
                     <div>
-                        <label class="block text-sm font-medium text-gray-700 mb-2">Tahun</label>
-                        <input type="number" name="tahun" value="{{ $tahun }}" 
-                               class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                               min="2020" max="2030">
+                        <label for="tahun" class="block text-sm font-medium text-gray-700 mb-2">Tahun</label>
+                        <select name="tahun" id="tahun"
+                            class="w-full px-3 py-2 border border-gray-300 rounded-lg bg-white shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            @for ($y = 2020; $y <= 2030; $y++)
+                                <option value="{{ $y }}" {{ $tahun == $y ? 'selected' : '' }}>
+                                    {{ $y }}
+                                </option>
+                            @endfor
+                        </select>
                     </div>
+
                     
                     <div>
                         <button type="submit" class="w-full px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center">
@@ -239,15 +249,15 @@
                                     <td class="px-6 py-4 text-center">
                                         @if($completeness == 3)
                                             <span class="inline-flex px-3 py-1 text-xs font-semibold rounded-full bg-green-100 text-green-800">
-                                                🎉 Lengkap
+                                                Lengkap
                                             </span>
                                         @elseif($completeness >= 1)
                                             <span class="inline-flex px-3 py-1 text-xs font-semibold rounded-full bg-yellow-100 text-yellow-800">
-                                                ⚠️ Sebagian ({{ $completeness }}/3)
+                                                Sebagian ({{ $completeness }}/3)
                                             </span>
                                         @else
                                             <span class="inline-flex px-3 py-1 text-xs font-semibold rounded-full bg-red-100 text-red-800">
-                                                ❌ Kosong
+                                                Kosong
                                             </span>
                                         @endif
                                     </td>
