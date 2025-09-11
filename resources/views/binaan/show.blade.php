@@ -196,11 +196,11 @@
 
                         <!-- Deskripsi Struktur -->
                         <div class="lg:col-span-1">
-                            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden h-fit">
+                            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden h-full">
                                 <div class="px-6 py-4 border-b border-gray-100 bg-gray-50">
                                     <h3 class="text-lg font-bold text-gray-900">Deskripsi Organisasi</h3>
                                 </div>
-                                <div class="p-6">
+                                <div class="p-6 max-h-[400px] overflow-y-auto">
                                     <div class="prose prose-sm max-w-none text-gray-600">
                                         {!! nl2br(e($mitras->strukturOrganisasi)) !!}
                                     </div>

@@ -24,25 +24,117 @@ class Mitra
         return [
             new Mitra(
                 1,
-                'Al Jabbar Pangandaran',
+                'Al Jabbar Kalipucang Pangandaran',
                 'https://i.ytimg.com/vi/le2-XFRzRj8/maxresdefault.jpg',
                 'Masjid ini dibangun oleh pemerintah provinsi Jawa Barat dimulai pembangunan ini kisaran tahun 2014 pada masa gubernur Bapak Ahmad Heryawan dan diresmikan pada bulan Juni 2018 dengan keadan masjid yang termasuk belum siap pakai dikarenakan pembangunannya belum rampung (Bocor dan toilet belum bias digunakan). 
                 
                 Selanjutnya pada tanggal 8 mei 2019 dilantik kepengurusan masjid AL-jabbar Kalipucang oleh SEKDA Jabar Dengan Ketua DKM KH. R. Hilal Faridz T., S.Pd.I, MM yang berlaku selama 3 (tiga) tahun. Pada saat itu masjid belum sepenuhnya rampung (masjid yang masih bocor dan toilet pria yang belum bias digunakan ditambah per airan yang terbatas maka ketua DKM mengeluarkan uang pribadi ditambah swadaya lainya memperbaiki hal tersebut yang diperkirakan menghabiskan biaya kurang lebih Rp. 40.000.000,- 
                  
                 Selanjutnya ketua DKM mengutus santri yang bernama Budiyanto untuk tinggal dan menempati Gedung secretariat yang sama belum rampung pembangunannya sampai sekarang, namun seiring waktu kegiatan demi kegiatan berjalan dan alhamdulilah semua kendala dan kekurangan bisa diatasi. Pada tanggal 1 April 2022 pemerintah Provinsi Jawa barat memperpanjang dan melantik kembali kepengurusan DKM melalui ZOOM Meting menetapkan dengan KETUA DKM KH. R. Hilal Faridz T., S.Pd.I., MM untuk melaksanakan tugas selama 3 tahun yakni sampai sekarang.',
-                'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
+                'I. PEMBINA
+1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati
+5. Kepala Kemenag Kab
+6. Ketua MUI Kab.
+
+II. KETUA DKM
+KH. R. Hilal Faridz Turmudzi, S.Pd.I, MM
+WAKIL KETUA
+KH. Suharno, M.Pd.I
+
+III. SEKRETARIS
+Anwar Hidayat, S.Fil. I, MM
+
+IV. BENDAHARA
+Budiyanto
+
+V. KETUA BIDANG IDAROH
+H. Aos Fauzy Umam
+WAKIL KETUA BIDANG IDAROH
+1. Dian Kuswanto
+2. Dariswana
+
+VI. KETUA BIDANG IMAROH
+Ky. Dadang Abd Qohar
+WAKIL KETUA BIDANG IMAROH
+Ky. Marqon Al-Ansori Ky. Asep Abdullah Siraj
+
+VII. KETUA BIDANG RI’AYAH
+KH. Muhammad Irfan
+WAKIL KETUA BIDANG RI’AYAH
+KH. Dasep Supriatna, M.Pd
+'
             ),
             new Mitra(
                 2,
-                'Al Jabbar Cikalong',
+                'Al Jabbar Cikalong Tasikmalaya',
                 'https://static.vecteezy.com/system/resources/previews/008/422/239/large_2x/tasikmalaya-west-java-indonesia-june-04-2022-portrait-of-al-jabbar-cikalong-mosque-free-photo.jpg',
                 'Masjid Al-Jabbar Cikalong terletak di Jalan Raya Pantai Selatan, Desa Cimanuk, Kecamatan Cikalong, KabupatenTasikmalaya. Dibangun pada tahun 2017 oleh Pemerintah Provinsi Jawa Barat, masjid ini merupakan bagian dari inisiatif pembangunan masjid-masjid Al-Jabbar di berbagai wilayah Jawa Barat, termasuk Sukabumi, Cianjur, Majalengka, dan Bandung. Berdiri di atas lahan seluas sekitar dua hektar, Masjid Al- Jabbar Cikalong menjadi landmark penting di jalur wisata selatan Jawa Barat. Lokasinya yang strategis, tepat di seberang Objek Wisata Pantai Karangtawulan, menjadikan masjid ini sebagai tempat istirahat dan ibadah bagi para pelancong yang melintasi kawasan tersebut. Masjid ini dirancang dengan arsitektur megah dan memiliki tiga lantai yang dilengkapi dengan ornamen khas. Selain digunakan untuk shalat lima waktu, masjid ini juga menjadi pusat kegiatan keagamaan seperti pengajian dan peringatan hari besar Islam. Meskipun belum digunakan untuk shalat Jumat secara rutin, masjid ini telah menjadi tempat berkumpulnya jamaah dari berbagai daerah, terutama saat pengajian besar PHBI. Sebagai pusat ibadah dan aktivitas sosial, Masjid Al-Jabbar terus berupaya meningkatkan pelayanan, kenyamanan, serta fasilitasnya demi tercapainya fungsi masjid sebagai tempat pembinaan umat yang bersih, teratur, dan bermanfaat bagi semua kalangan.',
-                'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
+                'I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Tasikmalaya
+5. Kepala Kemenag Kab Tasikmalaya
+6. Ketua MUI Kab. Tasikmalaya
+
+II. PENASEHAT
+1. KH. Adhari Abd. Aziz
+2. KH. Nurdin Al Khusaeny S.Pd.l
+3. KH. Hakimudin
+4. KH. Sanud (Ketua DMI)
+5. Drs. Dahlan (Ketua MUI)
+
+III. KETUA DKM 
+KH. Dadang
+WAKIL KETUA DKM
+1. K.U. Hasan Muslim
+2. Kh. Atam Rustam, M.Si
+3. Abdul Majid
+4. H. Maman Suryaman S.Ip
+
+IV. SEKRETARIS 
+KH. Gojali Husni
+WAKIL SEKRETARIS
+1. K. Asep Siroj
+2. K. Atep
+3. H. Hidayat, SH.
+4. K. Dadang
+
+V. BENDAHARA
+KH. Irfan Abd. Aziz
+WAKIL BENDAHARA
+1. KH. Ahmad Mutaqin
+2. Drs. H. Abdul Wahid
+3. Iden
+
+VI. BIDANG IDAROH
+K. Abdul Karim
+WAKIL BIDANG IDAROH
+1. K. Anwaludin
+2. K. Kalam
+3. K. Irsyad
+
+VII. BIDANG IMAROH
+KH. Lukmanul Hakim
+WAKIL BIDANG IMAROH
+1. Ust. Sidqon Amin, S.Pd.I
+2. KH. Nuhasyi
+3. K. Jajang
+
+VIII. BIDANG RI’AYAH
+KH. Suryana
+WAKIL BIDANG RI’AYAH
+1. K. Sofyan Staory
+2. K. Usep Syamsul Maarif
+3. K. Iwan, S.Pd.I
+4. K. Nunung'
             ),
             new Mitra(
                 3,
-                'Al Jabbar Plumbon',
+                'Al Jabbar Plumbon Cirebon',
                 'https://assets.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/jawapos/2017/10/menara-ambruk-pembangunan-masjid-al-jabbar-plumbon-kembali-dilanjut_m_161055.jpeg',
                 'Masjid Al Jabbar Plumbon adalah salah satu masjid yang dibangun oleh Pemerintah Provinsi Jawa Barat sebagai bagian dari upaya memperkuat infrastruktur keagamaan dan sosial di wilayah tersebut. Masjid ini berdiri kokoh di Desa Plumbon, Kecamatan Plumbon, Kabupaten Cirebon, dan diresmikan pada tahun 2019. Terletak di atas tanah seluas 26.165 m², masjid ini memiliki desain modern dan fasilitas yang mendukung kenyamanan bagi para jamaah dalam melaksanakan ibadah.
 
@@ -51,18 +143,122 @@ Dengan visi untuk menjadi pusat kegiatan keagamaan dan sosial yang memberikan ma
 Disamping itu Masjid Al Jabbar juga sebagai tempat yang mengutamakan nilainilai ukhuwah Islamiyah dan kepedulian sosial, serta memiliki berbagai program yang dirancang untuk memenuhi kebutuhan spiritual dan sosial masyarakat. Programprogram ini mencakup ibadah rutin seperti pelaksanaan sholat lima waktu, sholat Jumat, serta kegiatan keagamaan lainnya seperti Khotmil Quran, Yasin dan Tahlil, serta peringatan Maulid Nabi Muhammad SAW. Selain itu, masjid ini juga mengadakan pengajian bulanan dan tahunan yang melibatkan jamaah dalam kegiatan pendidikan agama yang mendalam.
 
 Dengan dedikasi yang tinggi terhadap kemaslahatan umat, Masjid Al Jabbar terus berupaya untuk menjadi pusat penguatan nilai-nilai keagamaan sekaligus berperan aktif dalam kegiatan sosial di masyarakat sekitar.',
-                'Ketua DKM: Dr. H. Abdul Malik, dll.'
+                'I. PEMBINA
+Gubernur
+Wakil Gubernur
+Sekretaris Daerah Provinsi Jawa Barat
+Bupati Cirebon
+KH. Wawan Arwani Amin
+KH. Niamillah Aqiel
+KH. Syarif Abu Bakar
+KH. Mahsun Muhammad
+KH. Arif Suhartono
+
+II. PENGAWAS
+KH. Aziz Hakim Syaerozi
+
+III. PENASEHAT
+Ketua MUI Kab. Cirebon
+Rektor IAIN Syekh Nurjati Cirebon
+Ketua DMI Kab. Cirebon
+KH. Madkosim
+KH. Rahmat
+KH. Abdul Basith
+KH. Najiyullah Fauzi
+
+IV. KETUA DKM
+KH. Lukman Hakim
+WAKIL KETUA:
+Dr. H. Solichin, SH., M.Kn
+KH. Nukbatul Mankhub
+
+V. SEKRETARIS
+Drs. KH. Bisri Latif
+WAKIL SEKRETARIS:
+R. Moh. Al Bana
+H. Asep Saefullah
+
+VI. BENDAHARA
+Ihsan Junaedi, S.Pd
+WAKIL BENDAHARA:
+H. Ade Dahwani
+Dr. Hj. Ijah Bahijah, MA
+
+VII. BIDANG IDAROH
+KEPALA:
+KH. Asef Nuzani
+WAKIL KEPALA:
+Kasnanto
+KH. Hanif Antasari
+ANGGOTA:
+Khotibul Umam Basir
+H. Ahmad Syafiq
+Najiburrohman, S.Pd.I
+KH. Sholehuddin Husni
+
+VIII. BIDANG IMAROH
+KEPALA:
+KH. Chotibul Umam
+WAKIL KEPALA:
+H. Syamsudin, M.Pd.I
+K. Syatori
+ANGGOTA:
+Hj. Ipah Urifah
+KH. Ahmad Zuhri Adnan, M.Pd
+Karna Susanto
+
+IX. BIDANG RI’AYAH
+KEPALA:
+Ust. Kadira
+WAKIL KEPALA:
+Maula As’ari
+ANGGOTA:
+Abdurrohim, S.Ag
+M. Rofi’uddin
+Winda
+Sabar
+Yusuf'
             ),
             new Mitra(
                 4,
-                'Al Jabbar Cimangkok',
+                'Al Jabbar Cimangkok Sukabumi',
                 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4npxsU5WSKlkUYxBvSt8gqxTAsd4whdfc4XHa2wjh0raDUWfpWOfjQmIJCAstDu0j6dtAgubEUJWRo7C6i_C-XjmDT8eKnRSgVYh6eoXViz8qIzcMWvxUxA5H9kju5KAK9MRj7m1uA=s1360-w1360-h1020-rw',
                 'Masjid aljabar merupakan masjid yang dibangun oleh pemprov jabar yang berada di atas tanah milik perhutani yang di bangun pada tahun 2016 sd 2019. ',
-                'Ketua DKM: Dr. H. Abdul Malik, dll.'
+                'I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Sukabumi
+5. Kepala Kemenag Kab. Sukabumi
+6. Ketua MUI Kab. Sukabumi
+
+II. KETUA DKM
+K. Apep Shalahudin
+
+III. SEKRETARIS
+Ijam Musyandi, M.Pd.
+
+IV. BENDAHARA
+Acep Nasrulloh Abdul Karim
+
+V. KETUA BIDANG IDAROH
+Ust. Asep Khudri
+WAKIL BIDANG IDAROH
+Ust. Ahmad Khawari
+
+VI. KETUA BIDANG IMAROH
+Ust. Dasep Sugandi, Lc. M.H.
+WAKIL BIDANG IMAROH
+Ust. Aep Saepudin
+
+VII. KETUA BIDANG RI’AYAH
+H. Nasarudin
+WAKIL BIDANG RI’AYAH
+Ust. Abdul Malik'
             ),
             new Mitra(
                 5,
-                'Al Jabbar Cipeyeum',
+                'Al Jabbar Cipeyeum Cianjur',
                 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq_kzj0Ycwnsz6LVs0695-S9E-zKxtQBJAsiakEXYdkRCvoK8jjmNOWh3-bcMV5iqpUgL6JWqTXcic9rmyNAM6ItYf2xTdYax1vYK5byQGUYovwqphsclmavBKeqLUuEe4PxiWR=s1360-w1360-h1020-rw',
                 'Masjid Al Jabar Cipeuyeum merupakan salah satu masjid yang penting bagi masyarakat di Kecamatan Cipeuyeum, Kabupaten Cianjur. Keberadaan masjid ini diharapkan tidak hanya untuk memenuhi kebutuhan ibadah umat Islam, tetapi juga menjadi pusat kegiatan sosial dan pendidikan agama bagi warga setempat.
 
@@ -78,18 +274,128 @@ Dengan dedikasi yang tinggi terhadap kemaslahatan umat, Masjid Al Jabbar terus b
 
 Kesimpulan
 Meskipun detail tentang sejarah spesifik pembangunan Masjid Al Jabar Cipeuyeum tidak terlalu mudah ditemukan di sumber-sumber umum, dapat dipahami bahwa masjid ini memiliki peran yang sangat penting dalam kehidupan spiritual dan sosial masyarakat setempat. Nama "Al Jabar" sendiri mencerminkan niat untuk menjadikan masjid ini sebagai tempat untuk memperbaiki, menyatukan, dan memberikan kedamaian bagi umat Islam di Cipeuyeum.',
-                'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
+                'I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Cianjur
+5. Ketua MUI Kab. Cianjur
+
+II. KETUA DKM
+H. Muhammad Dahlan
+WAKIL KETUA DKM
+1. KH. Asep Numan
+2. H. Asep Komarudin, M.Ag
+3. Dr. KH. Nandang Koswara, M.Pd
+4. K. Misbah, S.Pd.l.
+5. U Abdurohman S.Pd.I.
+
+III. SEKRETARIS
+Adi Rahmat
+WAKIL SEKRETARIS
+1. Erik Rohendi
+2. Ended Junaedi
+3. Deni Iskandar
+
+IV. BENDAHARA
+K. Ayi Juanda
+WAKIL BENDAHARA
+1. Deden Sunarlan
+2. Muhammad Jaelani
+3. K. Ade Syamsudin
+
+V. KETUA BIDANG IDAROH
+H. Deni Ruswandi
+WAKIL BIDANG IDAROH
+1. Ahmad Sujai
+2. H. Aris Fauzani, M.Pd
+3. K. Wiwin Nurjaman, S.Pd
+4. Dede Badrudin
+5. Heryanto
+6. Asep Saepuloh
+
+VI. KETUA BIDANG IMAROH
+KH. Obih Baehaqy
+WAKIL BIDANG IMAROH
+1. Kh. Holil
+2. Acep Anwar
+3. Jumaedi M.Ap
+4. K Mahmud. S.Pd.l
+5. Asep Saepuloh
+
+VII. KETUA BIDANG RI’AYAH
+KH. Nanang Muhyidin
+WAKIL BIDANG RI’AYAH
+1. Edi Aditya
+2. Unan Athori
+3. Saefulloh, S.Sos
+4. Rahmat Sujani
+5. Wawan Saepudin
+6. Hendra Virgo
+                '
             ),
             new Mitra(
                 6,
-                'Al Jabbar Cibinong',
+                'Al Jabbar Cibinong Cianjur',
                 'https://scontent-cgk2-2.xx.fbcdn.net/v/t1.6435-9/93852223_2468040633416552_8496942949404246016_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF7MUspJ9_M7gGEYeL2SEaedRXUXkavqtJ1FdReRq-q0h43J4PdgqrPbP-tt6wqcHkC5cONPtqlP7GGfgW6ftbl&_nc_ohc=ZqeN9sS9kBEQ7kNvwG5wk9I&_nc_oc=AdnjRdlZPt8RQYnX0TnjH7yWUUs7yDjRDk8DfS9RpckkmlRaT2ApzxBJ9nqtHFHLb2I&_nc_zt=23&_nc_ht=scontent-cgk2-2.xx&_nc_gid=rgNUjjDGXU7SCjOWUG25rA&oh=00_AfXJg-7Xmf6-WcX82yceRACQO1-2ImYjP1p4rFDsPZWrTw&oe=68D5F1CC',
                 'Masjid al-jabbar Prov jabar dibangun di lokasi yang tepatnya berada di Kес. Cibinong Kab Cianjur jawabarat di jalan provinsi yang menghubungkan antar daerah di prov jabar, masjid tersebut dibangun sebagai simpul pemersatu antar daerah. masjid tersebut selain sebagai sarana ibadah umat muslim, lingkungan masjid tersebut juga dapat dipakai sebagai tempat peristirahatan dan sarana umum bagi orang yang melakukan perjalanan antar daerah, sehingga kondisi tersebut diharapkan dapat memakmurkan masjid dan warga sekitarnya.',
-                'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
+                'I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Kab. Cianjur
+5. Kepala Kemenag Kab Cianjur
+6. Ketua MUI Kab. Cianjur
+
+II. KETUA DKM
+KH. Hunaefi Hermawan
+WAKIL KETUA DKM
+1. Wodi Efyana S.E
+2. Dr. H. Rachmat M.SI
+3. Drs. Endang Miraj
+
+III. SEKRETARIS
+Deris Lesmana
+WAKIL SEKRETARIS
+Muhajar
+
+IV. BENDAHARA
+Andi Susanto
+WAKIL BENDAHARA
+Nunung Nurzaman
+
+V. KETUA BIDANG IDAROH
+Asep Somantri
+WAKIL BIDANG IDAROH
+1. H. Ade
+2. H. Taufiq
+3. Sutarman
+4. Rusmana
+5. Jali
+6. Dik Dik Pauzi
+
+VI. KETUA BIDANG IMAROH
+Kyai Dedi Suhendi
+WAKIL BIDANG IMAROH
+Herman
+1. Dadang Junaedi S.Pd.
+2. H. Yuyun Yunus
+3. M. Idris
+4. Rahmat
+5. Edi
+
+VII. KETUA BIDANG RI’AYAH
+H. Husni
+1. Agus
+2. Mujiono
+3. Ilyas Sidik
+4. Gunawan
+5. Mamun
+6. Salim'
             ),
             new Mitra(
                 7,
-                'Al Jabbar',
+                'Al Jabbar Gedebage Bandung',
                 'https://citarumharum.jabarprov.go.id/eusina/uploads/2022/12/seninc4.jpg',
                 'Ridwan Kamil. Pada 2015, la diminta secara langsung oleh Gubernur Jabar Ahmad Heryawan untuk mendesain Al Jabbar. Al Jabbar adalah salah satu diantara 99 Nama Asmaul Husna yang artinya Maha Gagah; Maha Kuasa.
 
@@ -116,7 +422,7 @@ Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sej
             ),
             new Mitra(
                 8,
-                'Al Jabbar Kertajati',
+                'Al Jabbar Kertajati Majalengka',
                 'https://asset-2.tribunnews.com/priangan/foto/bank/images/lgklfuklyfi.jpg',
                 'Masjid Al-Jabbar Kertajati dibangun sebagai salah satu ikon baru di wilayah Kabupaten Majalengka, tepatnya di kawasan Kertajati yang terus berkembang setelah hadirnya Bandara Internasional Jawa Barat (BIJB). Kehadiran masjid ini dimaksudkan untuk menjadi pusat ibadah, dakwah, sekaligus landmark religius yang memperkuat identitas kawasan sebagai gerbang baru Jawa Barat.
 
@@ -125,7 +431,58 @@ Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sej
                 Secara arsitektural, masjid ini dirancang dengan gaya modern berpadu dengan sentuhan islami yang elegan. Bangunannya dilengkapi dengan ruang utama salat yang luas, kubah besar yang menjadi pusat perhatian, serta area pendukung yang membuat jamaah merasa nyaman. Lokasinya yang strategis di jalur akses menuju bandara menjadikan Masjid Al-Jabbar sebagai tempat transit sekaligus destinasi wisata religi bagi masyarakat yang berkunjung ke Kertajati.
 
                 Dengan segala keistimewaannya, Masjid Al-Jabbar Kertajati tidak hanya hadir sebagai sarana spiritual, tetapi juga menjadi simbol perkembangan kawasan Kertajati, serta wujud nyata bagaimana pembangunan infrastruktur dapat selaras dengan nilai-nilai keagamaan dan kebudayaan masyarakat Jawa Barat.',
-                'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
+                'I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Majalengka
+5. Kepala Kemenag Kab Majalengka
+6. Ketua MUI Kab. Majalengka
+
+II. KETUA DKM
+KH. Abdul Rosyid
+WAKIL KETUA DKM
+1. Ust. Ade Ridwanulloh, S.Sos., M.Sc
+2. KH. Ahsan Takwim, LC., M.Pd.I
+3. KH. Dr. Endi Suhendi Maarif, MA
+4. Ust. Rinaldi, S.Ag
+5. KH. Rifki Zaelani
+6. Drs. KH. Ajam S, M.Pd.
+7. KH. Abu Mansur, M.Ag
+
+III. SEKRETARIS
+Ujang Eri Zamahsyari, S.Pd.I., S.Sos
+WAKIL SEKRETARIS
+1. K. Umar Sobur, M.Ag
+2. UST. Moch. Hasim, S.Sos
+
+IV. BENDAHARA
+KH. Ikin Zaenal Mutaqin, S.Pd.l
+WAKIL BENDAHARA
+1. Drs. H. Tohir
+2. Fajar Senjaya, S.Pd
+
+V. KETUA BIDANG IDAROH
+KH. Ramil Fauzi
+WAKIL BIDANG IDAROH
+1. К. Сеce Moh Ihya, S.Ag
+2. KH. Mulyada
+3. K. Drs. Tajudin
+
+VI. KETUA BIDANG IMAROH
+ K. Yuyu Bazrujamhar
+WAKIL BIDANG IMAROH
+1. K. Odong A. Rohman, S.Pd
+2. Drs. Shaiful Asari
+3. Ust. Ahmad Subhan, M.Pd
+
+VII. KETUA BIDANG RI’AYAH
+Jaya Purnama Nugraha
+WAKIL BIDANG RI’AYAH
+1. Drs. Mahmud Saenun
+2. Drs. Shaiful Asari
+3. Eman Sulaeman
+                '
             ),
             new Mitra(
                 9,
@@ -138,22 +495,172 @@ Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sej
                 Transformasi paling signifikan terjadi pada periode 2001 hingga 2003, ketika pemerintah Provinsi Jawa Barat melakukan perombakan total. Masjid kemudian tampil megah dengan kubah bawang berwarna emas, dua menara kembar setinggi 81 meter, serta halaman luas yang kini menjadi ruang publik bagi warga. Pada 4 Juni 2003, masjid ini diresmikan kembali dan diberi nama baru, yaitu Masjid Raya Bandung Provinsi Jawa Barat.
 
                 Kini, Masjid Raya Bandung tidak hanya berfungsi sebagai tempat ibadah bagi ribuan jamaah, tetapi juga menjadi pusat dakwah, pendidikan Islam, dan kegiatan sosial masyarakat. Lokasinya yang berada tepat di sisi barat Alun-Alun Bandung membuat masjid ini menjadi salah satu destinasi wisata religi yang populer, sekaligus simbol kebanggaan masyarakat Jawa Barat.',
-                'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
+                'I. PEMBINA
+            1. Gubernur
+            2. Wakil Gubernur
+
+            II. PENASEHAT
+            2. Wakil Gubernur
+1. Sekretaris Daerah
+2. Asisten Pemerintahan dan Kesejahteraan Rakyat
+3. Kepala Kanwil Kemenag Provinsi Jawa Barat
+4. Kepala Biro Kesejahteraan Rakyat
+5. Ketua MUI Jawa Barat
+6. Ketua PW DMI Provinsi Jawa
+
+III. PENGARAH 
+1. KH. Ade Fatahilah, S.Pd.1
+2. Dr. KH. Asep Jamaludin
+3. Prof. Dr. KH. Maman Abdurahman, MA
+4. Drs. KH. Muhtar Gandaatmaja
+5. Dr. H. Zam Zam Erawan
+6. Dr. H. Engkos Kosasih, Lc., M.A.
+7. Dr. H. Supriadi, S.Ag., S.H.,M.H.
+
+IV. IMAM BESAR
+Dr. KH. Abun Bunyamin, MA
+WAKIL IMAM BESAR
+KH. Sadullah, SQ.,M.Pd.1
+
+V. KETUA DKM
+Drs. KH. A. Hasyim Asyari, M.Ag
+1. KH. Olan Maulana
+2. Dr. KH. Ajid Tohir, MA
+H. Mamat Rahmat, M.Ag.
+
+VI. SEKRETARIS
+H. Mamat Rahmat, M.Ag.
+WAKIL SEKRETARIS
+1. KH. Iqbal Muhajir, Lc.
+2. H. Dindin Ibrahim Mulyana, S.Ag
+
+VII. BENDAHARA
+H. Kani, A.Md.
+WAKIL BENDAHARA
+1. Ovie Rizki Oktavianti, SAP
+2. Ir. Ono Surono
+3. KH. Ahmad Haidar
+
+VIII. KETUA BIDANG IDAROH
+KH. Rifat Abi Syahid, M.Pdl.
+
+1. KEPEGAWAIAN & UMUM
+Neni Nuriyah Nurfaridah, S.Ag., M
+2. PELAYANAN SOSIAL & KEUMATAN
+KH. Zaenal Abidin
+3.PELAYANAN IBADAH RUTIN
+Dr. KH. Muh. Sulhan, M.Ag.
+4. DAKWAH 
+Dr. KH. R. Edi Komarudin, M.Ag
+
+IX. KETUA BIDANG IMAROH
+Dr. KH. R. Edi Komarudin, M.Ag
+1. PENDIDIKAN & KETERAMPILAN
+KH. Aceng Amrullah, S.Ag., M.Pd.I
+2. PHBI
+H. Baehaki Jubaedi
+3. ZIS & WAKAF
+KH. Sodik Nawawi
+4. REMAJA MASJID
+KH. Zaenal Mustofa
+5. KBIHU
+Nahid Hilmi, S.Sos.I
+
+X. KETUA BIDANG RI’AYAH
+KH. Anang Jauharudin, M.MPd
+1. PEMELIHARAAN BANGUNAN & KEBERSIHAN
+M.D.Syahrul Ramdhani, S.Sos.I.
+2. PERALATAN & PERLENGKAPAN
+H. Endang Mashum, S.H.
+3. LINGKUNGAN & PERTAMANAN
+KH. Abdurrahman Affandi
+4. KEAMANAN
+KH. Ajat Sudrajat, S.Ag.,M.Pd.I.
+
+
+                '
             ),
             new Mitra(
                 10,
-                'Masjid Raya Raudhatul Irfan',
+                'Masjid Raya Raudhatul Irfan Sukabumi',
                 'https://suaramasjid.com/wp-content/uploads/2016/09/masjid_raya_raudhatul_irfan-1.jpg',
                 'Pembangunan Masjid Raya Raudahtul Ifan diprakarsai oleh Provinsi Jawa Barat pada masa kepemimpinan Gubernur Ahmad Heriawan pada tahun 2012 dan di resmikan pada tanggal 7 juli 2014 oleh Bapak Gubernur. Masjid Raya Raudhatul Irfan berdiri megah di sepanjang Jalan Raya Sukabumi–Bogor, tepatnya di Desa Cibolang Kaler, Kecamatan Cisaat, Kabupaten Sukabumi. Ide pembangunannya bermula dari inisiatif Pemerintah Provinsi Jawa Barat bersama Dinas Bina Marga Jabar, dengan peletakan batu pertama oleh Gubernur Ahmad Heryawan pada 29 Januari 2013. Setelah melewati proses pembangunan, masjid ini resmi diresmikan pada 7 Juli 2014, dengan harapan dapat mempermudah masyarakat menunaikan ibadah di sepanjang jalur utama—terutama bagi mereka yang dalam perjalanan—serta menjadi pusat kegiatan keagamaan dan sosial.
 
                 Dibangun di atas lahan seluas 9,000 m² dengan luas bangunan utama sekitar 900 m², masjid ini dilengkapi fasilitas yang mendukung kenyamanan jamaah, seperti area parkir luas, taman, dan perkantoran bagi pengurus DKM. Ciri khas arsitektur masjid ini terlihat dari interior dominan warna hijau-putih yang dihiasi ornamen bergaya Persia, serta ruang utama yang luas dengan karpet indah dan kaligrafi di setiap sudutnya. Nama “Raudhatul Irfan” sendiri diambil dari kitab tafsir populer hasil karya ulama besar Sukabumi, K.H. Ahmad Sanusi, yang bermakna "taman pengetahuan", sebagai cerminan harapan agar masjid ini menjadi pusat pembelajaran dan peradaban Islam di Sukabumi.
 
                 Sebagai pusat spiritual dan sosial, Masjid Raya Raudhatul Irfan aktif menyelenggarakan berbagai kegiatan, seperti pengajian rutin setiap Ahad pagi (dikenal sebagai “JIHAD”), kajian oleh organisasi seperti HMI atau PMII, serta donor darah, panti asuhan, dan pembagian takjil pada bulan Ramadan. Lokasinya yang strategis di jalur utama juga membuat masjid ini menjadi tempat transit sekaligus peristirahatan bagi jamaah dan pelancong, memadukan fungsi religius dan kebersamaan.',
-                'Ketua DKM: Dr. H. Abdul Malik, dll.'
+                ' I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Sukabumi
+5. Ketua MUI Kab. Sukabumi
+
+II. PENASEHAT
+1. KH. Azis Matsuro
+2. KH. M. Mudrikah Hanafi
+3. KH. M. Anshori Fudholi
+4. Dr. KH.E. Supriatna Mubarok
+5. KH. Dadan Sujai, M.Ag
+
+III. KETUA DKM
+H. Faozul Akbar
+WAKIL KETUA 
+1. lyan Mahfudin, S.Ag., M.Pd
+2. H.Dadang S, Shiddieq
+3. H. Abdul Malik, S.Ag
+4. Drs. Deni Suandi
+5. H. A. Rifal
+6. Syahid Zulhijah, S.Ag., M.Ag
+7. Drs. Hadis Darmadi., M.Pd
+
+IV. SEKRETARIS
+Hj. Imas Sukaesih, S.lp.
+WAKIL SEKRETARIS
+1. Hasbu Burhanudin, S.Ag
+2. Abdullah Fadli, S.Pd.I
+3. Abdul Jabar, S.Pd.i
+4. M. Jihad
+
+V. BENDAHARA
+Mochamad Erdi Yanuardi, M.Ab
+WAKIL BENDAHARA
+1. Umar Syakir Amin, S.Sos
+2. H. Budi Irawan
+3. Ridwan Mochamad Harun
+4. Hj. Elis Nurbaeti
+
+
+VI. KEPALA BIDANG IDAROH
+H. Lilip Abdul Kholiq
+WAKIL BIDANG IDAROH
+1. H. M. Sofyan Tsauri
+2. M. Kamiludin
+3. Jana Jaenudin, S.Si
+4. M.Fikri R.F. S.H
+5. Alfi Husaeni, S.Pd.I.
+
+VII. KEPALA BIDANG IMAROH
+KH. Maftuhin Ahmad,S,Ag., M.MPd
+WAKIL  BIDANG IMAROH
+1. H. Asep Alam
+2. KH. Nurdin Mubarok
+3. Deden Sukendar, M.Ag
+4. Epi Gunawan
+5. Heri Heriadi
+
+VIII. KEPALA BIDANG RIAYAH
+H. Fikri Ali Majid
+WAKIL  BIDANG RIAYAH
+1. H. Asep Alam
+2. Hadi Hidayatulloh, S.lp.
+3. Empep Andri
+4. Н. Сеcep Abdul Muiz
+5. Ending Hoerudin'
             ),
             new Mitra(
                 11,
-                'Pusdai',
+                'Pusdai Jawa Barat',
                 'https://karyakubah.com/wp-content/uploads/2020/01/Pusdai.jpg',
                 'Pemerintah Provinsi Jawa Barat sejak lama memiliki cita-cita untuk mewujudkan sebuah Pusat Dakwah Islam (Pusdai) sekaligus masjid raya yang representatif di ibu kota provinsi, yaitu Kota Bandung. Hingga saat itu, Pemerintah Kotamadya Bandung sendiri belum memiliki bangunan khusus yang dapat menampung fungsi tersebut.
 
@@ -166,18 +673,129 @@ Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sej
                 Lebih jauh, Pusdai Jawa Barat merupakan upaya nyata dalam merespons kehidupan umat manusia yang mencakup hubungan dengan Tuhan, sesama manusia, dan alam semesta. Kompleks Pusdai sendiri dirancang untuk dapat menampung tiga kelompok aktivitas utama, yaitu keagamaan, sosial, dan kultural.
 
                 Dengan keberadaannya, Pusdai diharapkan menjadi pusat pengembangan umat Islam menuju masyarakat yang tercerahkan, berdaya cipta, serta mampu melakukan pembaruan secara ilmiah dan berkelanjutan.',
-                'Ketua DKM: Budi Santoso, Seksi Dakwah: Ahmad...'
+                'I. PEMBINA
+                1. Gubernur
+                2. Wakil Gubernur
+
+                II. PENASEHAT
+1. Sekretaris Daerah
+2. Asisten Pemerintahan dan Kesejahteraan Rakyat
+3. Kepala Kanwil Kemenag Provinsi Jawa Barat
+4. Kepala Biro Kesejahteraan Rakyat
+5. Ketua MUI Jawa Barat
+6. Ketua PW DMI Provinsi Jawa Barat
+
+III. PENGARAH
+1. KH. Chotimul Banin Muhyidin
+2. KH. Sofyan Yahya, MA
+3. KH. Juhadi Muhammad
+4. Kiayi Muhammad Dawam
+5. Drs. KH. Kiagus Zaenal Mubarok, MAP.
+6. KH. Suhada
+7. KH. Iman Setiawan Latief, S.H.
+8. KH. Iman Budiman, S.Th.,M.Ag.
+9. Dr. KH. Nandang Koswara, M.Pd.
+10. Dr. H. Supriadi, S.Ag., S.H.,M.H.
+
+IV. IMAM BESAR
+Prof. Dr. KH. Rahmat Syafei, MA
+WAKIL IMAM BESAR
+Prof. Dr. H. Rosihon Anwar, M.Ag.
+
+V. KETUA DKM
+Prof. Dr. KH. Adang Hambali
+WAKIL KETUA
+1. KH. Aziz Hakim Syaerozie, S.Fil, MA.
+2. KH. Oden Samsudin, S.Pd.1.
+3. H. Ijang Faisal, M.Si
+4. H. Ary Gifari
+
+VI. SEKRETARIS
+H. Diky Mohamad Syafei, S.Pd., MAP.
+WAKIL SEKRETARIS
+1. KH. Amin Baejuri Asnaf, S.Ag.,M.Pd.
+2. KH. Asep Sunarya, S.Pd.,M.Pd.1
+
+VII. BENDAHARA
+H. Enjang, S.S.
+WAKIL BENDAHARA
+1. KH. Cahya M. Nuh, SE.,M.Si.
+2. KH. Dadang Nawawi
+
+VIII. KEPALA BIDANG IMAROH
+KH. Dadi Abdurahman
+WAKIL BIDANG IMAROH
+1. KH. Ade Hidayat
+2. H. Nurdin Hidayat
+
+IX. KEPALA BIDANG IDAROH
+Drs. KH. Habib Umar Assaqqof
+WAKIL BIDANG IDAROH
+1. KH. Ade Sajidin
+2. Paeruzillah, SE.,MAP
+
+X. KEPALA BIDANG RIAYAH
+Drs. H. Dikdik Dahlan Lukman, M.Hum.
+KEPALA BIDANG RIAYAH
+1. KH. Asep Totoh Ghozali, M.Ag.,MBA
+2. Ir. H. Toni Kusna'
             ),
             new Mitra(
                 12,
-                'At Tawuun',
+                'At Tawuun Bogor',
                 'https://uloom.id/wp-content/uploads/2018/11/Masjid-Attaauwn1-1130x650.jpg',
                 'Masjid At-Tawun adalah salah satu masjid ikonik yang terletak di kawasan Puncak, Kabupaten Bogor, Jawa Barat. Masjid ini dibangun untuk memenuhi kebutuhan tempat ibadah bagi masyarakat setempat maupun para wisatawan yang melintasi jalur Puncak, yang setiap harinya ramai dilewati pengunjung dari berbagai daerah. Kehadiran Masjid At-Tawun tidak hanya sebagai sarana ibadah, tetapi juga sebagai ruang peristirahatan dan pusat kegiatan keagamaan bagi umat Islam di kawasan tersebut.
 
                 Dibangun di lahan yang cukup luas dengan suasana sejuk khas pegunungan, Masjid At-Tawun menawarkan pengalaman spiritual yang berpadu dengan keindahan alam. Arsitekturnya menampilkan desain modern dengan sentuhan Islami, serta ruang dalam yang lapang sehingga mampu menampung banyak jamaah sekaligus. Lingkungan sekitar masjid ditata dengan taman hijau dan area terbuka yang memberikan kenyamanan bagi pengunjung, baik untuk beribadah maupun sekadar beristirahat dalam perjalanan.
 
                 Seiring berjalannya waktu, Masjid At-Tawun berkembang menjadi salah satu destinasi wisata religi populer di jalur Puncak. Banyak jamaah dan wisatawan yang singgah untuk melaksanakan salat, mengikuti pengajian, atau menikmati suasana teduh di sekitar masjid. Fungsinya yang menyatukan aspek religius, sosial, dan rekreasi menjadikan Masjid At-Tawun bukan hanya simbol spiritual, tetapi juga bagian penting dari identitas kawasan Puncak sebagai wilayah wisata dan peristirahatan.',
-                'Ketua DKM: Siti Aminah, Seksi Pendidikan: Fatimah...'
+                'I. PEMBINA 
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Bogor
+5. Kepala Kemenag Kab. Bogor
+6. Ketua MUI Kab. Bogor
+
+II. KETUA DKM
+KH. Ahmad Kosasih, S.Pd.l
+WAKIL KETUA
+H. Yadi Supriadi
+
+III. SEKRETARIS
+Yosep Jomantara, S.Ag.
+WAKIL SEKRETARIS
+H. Awaludin, S.Pd.
+Deni Iskandar
+
+IV. BENDAHARA
+Herman Suherman, A.Md.
+WAKIL BENDAHARA
+1. H. Iwan Rudi Gunawan
+2. KH. Ujang Frahan
+
+V. KEPALA BIDANG IDAROH
+H. Asep Dikdik
+WAKIL BIDANG IDAROH
+1. KH. Badrukamal, Ky.
+2. H. Budiana. S.E.
+3. H. Yanto
+4. Ahmad Kolaid
+
+VI. KEPALA BIDANG IMAROH
+Nurkholis, S.Pd.I.
+WAKIL BIDANG IMAROH
+1. Drs. H. Asep Ruhiat
+2 Muhammad Maftuh Nasuhi
+3. Rahmatullah
+
+VII. KEPALA BIDANG RIAYAH
+Endang Badruzaman
+WAKIL BIDANG RIAYAH
+1. KH. Syaripudin, M.Si.
+2. Dedi rohayadi
+3. H. Ahmad satibi
+'
             ),
             new Mitra(
                 13,
@@ -190,7 +808,36 @@ Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sej
                 Secara arsitektural, Masjid Nurul Qur’an dibangun dengan desain modern yang berpadu dengan nuansa Islami. Ruang dalamnya luas untuk menampung banyak jamaah, sementara lingkungan sekitarnya ditata agar nyaman sebagai tempat beribadah maupun kegiatan keagamaan lainnya. Kehadirannya juga melengkapi jaringan masjid-masjid besar di Jawa Barat yang berfungsi sebagai simbol religius, pusat dakwah, serta sarana kebersamaan umat.
 
                 Dengan segala potensi dan perannya, Masjid Nurul Qur’an diharapkan mampu menjadi pusat pembinaan umat Islam Jawa Barat, tempat berkumpulnya masyarakat untuk memperdalam ilmu agama, mempererat ukhuwah, serta menjadikan masjid sebagai pusat kegiatan sosial yang bermanfaat bagi seluruh lapisan masyarakat.',
-                'Ketua DKM: Dr. H. Abdul Malik, dll.'
+                'I. PEMBINA
+                 1. Gubernur Jawa Barat
+2. Wakil Gubenur Jawa Barat
+3. Sekretaris Daerah Provinsi Jawa Barat
+
+II. PIC Mesjid
+Koordinator : H. Totoh Muhidin, S.E.
+Wakil Koordinator : H. Encep Nurzaman, S.Ag., M.A.Р.
+
+III. KETUA DKM : Drs. H. Dede Suherman, M.Ag.
+IV. SEKRETARIS : Nahid Hilmi, S.Sos.l.
+V. BENDAHARA : Mualipin
+VI. BIDANG IDAROH : Evin Sopyan, S.E.
+VII. BIDANG IMAROH : Moch. Yassir Sjarif
+VIII. BIDANG RIAYAH :    1. Perdi Julhadi, 
+2. Dadang Supriatna.
+
+IX. BIDANG KEAMANAN :
+1. Ata Suhendar;
+2. Hendrik Awaludin;
+3. Reza Fajar Ismail;
+4. Septiyanto;
+5. Muhammad Hikmah Ali S.;
+6. Ade Rukandi.
+
+X. BIDANG KEBERSIHAN: 
+1. Dede Wahyudin;
+2. Yayan Suryana;
+3. Dian Suherman;
+4. Devitya'
             ),
             // Tambahkan data dummy masjid lainnya di sini
         ];
