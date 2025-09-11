@@ -171,22 +171,89 @@
         </section>
 
         {{-- Struktur Organisasi Section (Placeholder) --}}
+        {{-- Struktur Organisasi Section --}}
         <section class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">Tim Kami</span>
                 <h2 class="mt-4 text-4xl lg:text-5xl font-bold text-gray-900">Struktur Organisasi</h2>
                 <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                    Mengenal struktur dan tim BPIC
+                    Struktur organisasi BPIC berdasarkan Pergub Jawa Barat Nomor 55 Tahun 2023
                 </p>
-                <div class="mt-12">
-                    {{-- Bisa diisi dengan gambar bagan organisasi atau daftar nama --}}
-                    <div class="bg-gray-100 rounded-3xl p-10 flex flex-col items-center justify-center h-96">
-                        <svg class="w-16 h-16 text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
-                            </path>
-                        </svg>
-                        <p class="text-xl text-gray-500">Bagan organisasi akan segera ditambahkan.</p>
+                
+                <div class="mt-16 max-w-5xl mx-auto">
+                    {{-- Bagan Organisasi --}}
+                    <div class="relative">
+                        {{-- Level 1: Pembina --}}
+                        <div class="mb-12">
+                            <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl p-6 shadow-lg mx-auto max-w-md">
+                                <div class="flex items-center justify-center mb-3">
+                                    <svg class="w-8 h-8 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <h3 class="text-xl font-bold">PEMBINA</h3>
+                                </div>
+                                <div class="text-sm space-y-1">
+                                    <p>• Gubernur Jawa Barat</p>
+                                    <p>• Wakil Gubernur Jawa Barat</p>
+                                    <p>• Kepala Badan Perancangan Pembangunan Daerah</p>
+                                    <p>• Inspektur Daerah Provinsi</p>
+                                    <p>• Kepala Badan Pengelola Keuangan dan Aset Daerah</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- Garis Vertikal --}}
+                        <div class="flex justify-center mb-8">
+                            <div class="w-1 h-12 bg-gray-300"></div>
+                        </div>
+
+                        {{-- Level 2: Kepala Badan --}}
+                        <div class="mb-12">
+                            <div class="bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl p-6 shadow-lg mx-auto max-w-md">
+                                <div class="flex items-center justify-center mb-3">
+                                    <svg class="w-8 h-8 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"></path>
+                                    </svg>
+                                    <h3 class="text-xl font-bold">KEPALA BADAN</h3>
+                                </div>
+                                <p class="text-sm text-center">
+                                    Kepala Biro Kesejahteraan Rakyat<br>
+                                    Sekretariat Daerah Provinsi Jawa Barat
+                                </p>
+                            </div>
+                        </div>
+
+                        {{-- Garis Vertikal --}}
+                        <div class="flex justify-center mb-8">
+                            <div class="w-1 h-12 bg-gray-300"></div>
+                        </div>
+
+                        {{-- Level 3: Sekretaris --}}
+                        <div class="mb-12">
+                            <div class="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-xl p-6 shadow-lg mx-auto max-w-md">
+                                <div class="flex items-center justify-center mb-3">
+                                    <svg class="w-8 h-8 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                                    </svg>
+                                    <h3 class="text-xl font-bold">SEKRETARIS</h3>
+                                </div>
+                                <p class="text-sm text-center">
+                                    Analisis Kebijakan Ahli Madya<br>
+                                    pada Biro Kesejahteraan Rakyat<br>
+                                    Sekretariat Daerah Provinsi Jawa Barat
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Keterangan --}}
+                    <div class="mt-12 bg-gray-50 rounded-lg p-6">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Dasar Hukum:</h4>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Struktur organisasi ini ditetapkan berdasarkan Peraturan Gubernur Jawa Barat Nomor 55 Tahun 2023 
+                            tentang Perubahan Ketiga atas Peraturan Gubernur Jawa Barat Nomor 62 Tahun 2011 tentang 
+                            Badan Pengelola Islamic Centre Jawa Barat.
+                        </p>
                     </div>
                 </div>
             </div>

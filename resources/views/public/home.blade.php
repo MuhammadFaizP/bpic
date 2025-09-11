@@ -154,7 +154,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-2 md:grid-cols-2 gap-8 text-center text-white">
                     <div class="space-y-2">
-                        <div class="text-4xl md:text-5xl font-bold">14</div>
+                        <div class="text-4xl md:text-5xl font-bold">13</div>
                         <div class="text-green-100">Masjid Binaan</div>
                     </div>
                     <div class="space-y-2">
@@ -169,15 +169,16 @@
         <section class="py-20 bg-gray-900">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">
-                    Mari Bergabung Bersama Kami
+                    Komitmen Kami
                 </h2>
                 <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-                    Bersama membangun komunitas muslim yang lebih kuat dan berkualitas di seluruh provinsi
+                    "Mengelola dan mengembangkan Islamic Centre sebagai pusat dakwah, 
+            pendidikan, dan pemberdayaan umat di Jawa Barat"
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="{{ route('kontak') }}"
                         class="bg-green-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
-                        Hubungi Kami Sekarang
+                        Kontak Kami
                     </a>
                     <a href="{{ route('profil') }}"
                         class="border-2 border-gray-600 text-gray-300 px-8 py-4 rounded-full font-semibold hover:bg-gray-800 hover:border-gray-500 transition-all duration-300 transform hover:scale-105">
