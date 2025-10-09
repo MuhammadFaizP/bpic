@@ -9,21 +9,387 @@ class Mitra
     public $gambar;
     public $sejarah;
     public $strukturOrganisasi;
-    public $kategori;  // Properti baru
+    public $kategori;
+    public $galeri;
+    // Properti baru
 
-    public function __construct($id, $nama, $gambar, $sejarah, $strukturOrganisasi, $kategori)
+    public function __construct($id, $nama, $gambar, $sejarah, $strukturOrganisasi, $kategori, $galeri = [])
     {
         $this->id = $id;
         $this->nama = $nama;
         $this->gambar = $gambar;
         $this->sejarah = $sejarah;
         $this->strukturOrganisasi = $strukturOrganisasi;
-        $this->kategori = $kategori;  // Parameter baru
+        $this->kategori = $kategori;
+        $this->galeri = $galeri;  // Parameter baru
     }
 
     public static function all()
     {
         return [
+            new Mitra(
+                9,
+                'Masjid Raya Bandung',
+                'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Masjid_Raya_Bandung_dan_Alun-alun_Bandung_%28potrait%29.jpg/1200px-Masjid_Raya_Bandung_dan_Alun-alun_Bandung_%28potrait%29.jpg',
+                'Masjid Raya Bandung, yang dahulu dikenal sebagai Masjid Agung Bandung, merupakan salah satu ikon religius sekaligus sejarah di Kota Bandung. Masjid ini pertama kali dibangun pada tahun 1810, bersamaan dengan pemindahan pusat Kabupaten Bandung dari Dayeuhkolot ke Alun-Alun Bandung oleh Bupati Wiranatakusumah II. Pada awalnya, bangunan masjid sangat sederhana, berdinding anyaman bambu dengan atap ijuk, dan menjadi pusat kegiatan keagamaan bagi masyarakat sekitar alun-alun.
+
+                Seiring berjalannya waktu, masjid ini mengalami banyak perubahan dan renovasi besar. Atapnya mulai diganti genteng pada 1875, lalu ditambahkan serambi serta menara kecil pada dekade 1930-an. Renovasi terbesar pertama dilakukan menjelang Konferensi Asia Afrika tahun 1955, di mana masjid diperbarui dengan gaya modern dan kubah berbentuk kubus runcing. Renovasi serupa kembali dilakukan pada tahun 1967 dan 1973, sehingga wajah masjid semakin berubah mengikuti perkembangan arsitektur masa itu.
+
+                Transformasi paling signifikan terjadi pada periode 2001 hingga 2003, ketika pemerintah Provinsi Jawa Barat melakukan perombakan total. Masjid kemudian tampil megah dengan kubah bawang berwarna emas, dua menara kembar setinggi 81 meter, serta halaman luas yang kini menjadi ruang publik bagi warga. Pada 4 Juni 2003, masjid ini diresmikan kembali dan diberi nama baru, yaitu Masjid Raya Bandung Provinsi Jawa Barat.
+
+                Kini, Masjid Raya Bandung tidak hanya berfungsi sebagai tempat ibadah bagi ribuan jamaah, tetapi juga menjadi pusat dakwah, pendidikan Islam, dan kegiatan sosial masyarakat. Lokasinya yang berada tepat di sisi barat Alun-Alun Bandung membuat masjid ini menjadi salah satu destinasi wisata religi yang populer, sekaligus simbol kebanggaan masyarakat Jawa Barat',
+                'I. PEMBINA
+            1. Gubernur
+            2. Wakil Gubernur
+
+            II. PENASEHAT
+            2. Wakil Gubernur
+1. Sekretaris Daerah
+2. Asisten Pemerintahan dan Kesejahteraan Rakyat
+3. Kepala Kanwil Kemenag Provinsi Jawa Barat
+4. Kepala Biro Kesejahteraan Rakyat
+5. Ketua MUI Jawa Barat
+6. Ketua PW DMI Provinsi Jawa
+
+III. PENGARAH 
+1. KH. Ade Fatahilah, S.Pd.1
+2. Dr. KH. Asep Jamaludin
+3. Prof. Dr. KH. Maman Abdurahman, MA
+4. Drs. KH. Muhtar Gandaatmaja
+5. Dr. H. Zam Zam Erawan
+6. Dr. H. Engkos Kosasih, Lc., M.A.
+7. Dr. H. Supriadi, S.Ag., S.H.,M.H.
+
+IV. IMAM BESAR
+Dr. KH. Abun Bunyamin, MA
+WAKIL IMAM BESAR
+KH. Sadullah, SQ.,M.Pd.1
+
+V. KETUA DKM
+Drs. KH. A. Hasyim Asyari, M.Ag
+1. KH. Olan Maulana
+2. Dr. KH. Ajid Tohir, MA
+H. Mamat Rahmat, M.Ag.
+
+VI. SEKRETARIS
+H. Mamat Rahmat, M.Ag.
+WAKIL SEKRETARIS
+1. KH. Iqbal Muhajir, Lc.
+2. H. Dindin Ibrahim Mulyana, S.Ag
+
+VII. BENDAHARA
+H. Kani, A.Md.
+WAKIL BENDAHARA
+1. Ovie Rizki Oktavianti, SAP
+2. Ir. Ono Surono
+3. KH. Ahmad Haidar
+
+VIII. KETUA BIDANG IDAROH
+KH. Rifat Abi Syahid, M.Pdl.
+
+1. KEPEGAWAIAN & UMUM
+Neni Nuriyah Nurfaridah, S.Ag., M
+2. PELAYANAN SOSIAL & KEUMATAN
+KH. Zaenal Abidin
+3.PELAYANAN IBADAH RUTIN
+Dr. KH. Muh. Sulhan, M.Ag.
+4. DAKWAH 
+Dr. KH. R. Edi Komarudin, M.Ag
+
+IX. KETUA BIDANG IMAROH
+Dr. KH. R. Edi Komarudin, M.Ag
+1. PENDIDIKAN & KETERAMPILAN
+KH. Aceng Amrullah, S.Ag., M.Pd.I
+2. PHBI
+H. Baehaki Jubaedi
+3. ZIS & WAKAF
+KH. Sodik Nawawi
+4. REMAJA MASJID
+KH. Zaenal Mustofa
+5. KBIHU
+Nahid Hilmi, S.Sos.I
+
+X. KETUA BIDANG RI’AYAH
+KH. Anang Jauharudin, M.MPd
+1. PEMELIHARAAN BANGUNAN & KEBERSIHAN
+M.D.Syahrul Ramdhani, S.Sos.I.
+2. PERALATAN & PERLENGKAPAN
+H. Endang Mashum, S.H.
+3. LINGKUNGAN & PERTAMANAN
+KH. Abdurrahman Affandi
+4. KEAMANAN
+KH. Ajat Sudrajat, S.Ag.,M.Pd.I.
+',
+                'BPIC',
+                [
+                    ['url' => 'https://tni-au.mil.id/images/sw/lg/2024/03/WhatsApp%20Image%202024-03-08%20at%2015.39.44_5158eb30-1020617-1080.webp', 'judul' => 'Kegiatan Gotong Royong', 'kategori' => 'kegiatan'],
+                    ['url' => 'https://lapaspekanbaru.id/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-03-at-10.07.41.jpeg', 'judul' => 'Tadarus', 'kategori' => 'Mengaji'],
+                ]
+            ),
+            new Mitra(
+                10,
+                'Masjid Raya Raudhatul Irfan Sukabumi',
+                'https://suaramasjid.com/wp-content/uploads/2016/09/masjid_raya_raudhatul_irfan-1.jpg',
+                'Pembangunan Masjid Raya Raudahtul Ifan diprakarsai oleh Provinsi Jawa Barat pada masa kepemimpinan Gubernur Ahmad Heriawan pada tahun 2012 dan di resmikan pada tanggal 7 juli 2014 oleh Bapak Gubernur. Masjid Raya Raudhatul Irfan berdiri megah di sepanjang Jalan Raya Sukabumi–Bogor, tepatnya di Desa Cibolang Kaler, Kecamatan Cisaat, Kabupaten Sukabumi. Ide pembangunannya bermula dari inisiatif Pemerintah Provinsi Jawa Barat bersama Dinas Bina Marga Jabar, dengan peletakan batu pertama oleh Gubernur Ahmad Heryawan pada 29 Januari 2013. Setelah melewati proses pembangunan, masjid ini resmi diresmikan pada 7 Juli 2014, dengan harapan dapat mempermudah masyarakat menunaikan ibadah di sepanjang jalur utama—terutama bagi mereka yang dalam perjalanan—serta menjadi pusat kegiatan keagamaan dan sosial.
+
+                Dibangun di atas lahan seluas 9,000 m² dengan luas bangunan utama sekitar 900 m², masjid ini dilengkapi fasilitas yang mendukung kenyamanan jamaah, seperti area parkir luas, taman, dan perkantoran bagi pengurus DKM. Ciri khas arsitektur masjid ini terlihat dari interior dominan warna hijau-putih yang dihiasi ornamen bergaya Persia, serta ruang utama yang luas dengan karpet indah dan kaligrafi di setiap sudutnya. Nama “Raudhatul Irfan” sendiri diambil dari kitab tafsir populer hasil karya ulama besar Sukabumi, K.H. Ahmad Sanusi, yang bermakna "taman pengetahuan", sebagai cerminan harapan agar masjid ini menjadi pusat pembelajaran dan peradaban Islam di Sukabumi.
+
+                Sebagai pusat spiritual dan sosial, Masjid Raya Raudhatul Irfan aktif menyelenggarakan berbagai kegiatan, seperti pengajian rutin setiap Ahad pagi (dikenal sebagai “JIHAD”), kajian oleh organisasi seperti HMI atau PMII, serta donor darah, panti asuhan, dan pembagian takjil pada bulan Ramadan. Lokasinya yang strategis di jalur utama juga membuat masjid ini menjadi tempat transit sekaligus peristirahatan bagi jamaah dan pelancong, memadukan fungsi religius dan kebersamaan.',
+                'I. PEMBINA
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Sukabumi
+5. Ketua MUI Kab. Sukabumi
+
+II. PENASEHAT
+1. KH. Azis Matsuro
+2. KH. M. Mudrikah Hanafi
+3. KH. M. Anshori Fudholi
+4. Dr. KH.E. Supriatna Mubarok
+5. KH. Dadan Sujai, M.Ag
+
+III. KETUA DKM
+H. Faozul Akbar
+WAKIL KETUA 
+1. lyan Mahfudin, S.Ag., M.Pd
+2. H.Dadang S, Shiddieq
+3. H. Abdul Malik, S.Ag
+4. Drs. Deni Suandi
+5. H. A. Rifal
+6. Syahid Zulhijah, S.Ag., M.Ag
+7. Drs. Hadis Darmadi., M.Pd
+
+IV. SEKRETARIS
+Hj. Imas Sukaesih, S.lp.
+WAKIL SEKRETARIS
+1. Hasbu Burhanudin, S.Ag
+2. Abdullah Fadli, S.Pd.I
+3. Abdul Jabar, S.Pd.i
+4. M. Jihad
+
+V. BENDAHARA
+Mochamad Erdi Yanuardi, M.Ab
+WAKIL BENDAHARA
+1. Umar Syakir Amin, S.Sos
+2. H. Budi Irawan
+3. Ridwan Mochamad Harun
+4. Hj. Elis Nurbaeti
+
+
+VI. KEPALA BIDANG IDAROH
+H. Lilip Abdul Kholiq
+WAKIL BIDANG IDAROH
+1. H. M. Sofyan Tsauri
+2. M. Kamiludin
+3. Jana Jaenudin, S.Si
+4. M.Fikri R.F. S.H
+5. Alfi Husaeni, S.Pd.I.
+
+VII. KEPALA BIDANG IMAROH
+KH. Maftuhin Ahmad,S,Ag., M.MPd
+WAKIL  BIDANG IMAROH
+1. H. Asep Alam
+2. KH. Nurdin Mubarok
+3. Deden Sukendar, M.Ag
+4. Epi Gunawan
+5. Heri Heriadi
+
+VIII. KEPALA BIDANG RIAYAH
+H. Fikri Ali Majid
+WAKIL  BIDANG RIAYAH
+1. H. Asep Alam
+2. Hadi Hidayatulloh, S.lp.
+3. Empep Andri
+4. Н. Сеcep Abdul Muiz
+5. Ending Hoerudin',
+                'BPIC'
+            ),
+            new Mitra(
+                11,
+                'Pusdai Jawa Barat',
+                'https://karyakubah.com/wp-content/uploads/2020/01/Pusdai.jpg',
+                'Pemerintah Provinsi Jawa Barat sejak lama memiliki cita-cita untuk mewujudkan sebuah Pusat Dakwah Islam (Pusdai) sekaligus masjid raya yang representatif di ibu kota provinsi, yaitu Kota Bandung. Hingga saat itu, Pemerintah Kotamadya Bandung sendiri belum memiliki bangunan khusus yang dapat menampung fungsi tersebut.
+
+                Rencana pembangunan Pusdai sebenarnya sudah ada sejak lama, dan merupakan kelanjutan dari gagasan yang dicetuskan pada tahun 1951. Perencanaan ini juga telah disesuaikan dengan Rencana Umum Tata Ruang Kota Bandung.
+
+                Secara pengertian, Pusat Dakwah Islam (Pusdai) Jawa Barat dapat dipahami sebagai “masjid yang diperluas”. Artinya, masjid tidak hanya berfungsi sebagai tempat ibadah, melainkan juga menjadi pusat aktivitas pengabdian agama Islam bagi pembangunan masyarakat, sebagaimana tujuan pokok yang disebutkan dalam Al-Qur’an. Seiring perkembangan zaman, baik dalam lingkup dunia Islam secara umum maupun di Indonesia khususnya, Pusdai hadir sebagai wadah untuk berbagai kegiatan umat Islam, baik yang berakar dari tradisi masa lampau, kebutuhan saat ini, maupun tantangan di masa depan.
+
+                Kehadiran Pusdai juga dimaksudkan untuk memelihara dan mengembangkan nilai-nilai kebudayaan Islam, yang berjalan beriringan dengan berbagai sarana keislaman yang sudah ada, termasuk hasil swadaya masyarakat. Dengan demikian, Pusdai berfungsi sebagai pusat penyebaran ajaran Islam sekaligus pusat kebudayaan Islam di Jawa Barat.
+
+                Lebih jauh, Pusdai Jawa Barat merupakan upaya nyata dalam merespons kehidupan umat manusia yang mencakup hubungan dengan Tuhan, sesama manusia, dan alam semesta. Kompleks Pusdai sendiri dirancang untuk dapat menampung tiga kelompok aktivitas utama, yaitu keagamaan, sosial, dan kultural.
+
+                Dengan keberadaannya, Pusdai diharapkan menjadi pusat pengembangan umat Islam menuju masyarakat yang tercerahkan, berdaya cipta, serta mampu melakukan pembaruan secara ilmiah dan berkelanjutan.',
+                'I. PEMBINA
+                1. Gubernur
+                2. Wakil Gubernur
+
+                II. PENASEHAT
+1. Sekretaris Daerah
+2. Asisten Pemerintahan dan Kesejahteraan Rakyat
+3. Kepala Kanwil Kemenag Provinsi Jawa Barat
+4. Kepala Biro Kesejahteraan Rakyat
+5. Ketua MUI Jawa Barat
+6. Ketua PW DMI Provinsi Jawa Barat
+
+III. PENGARAH
+1. KH. Chotimul Banin Muhyidin
+2. KH. Sofyan Yahya, MA
+3. KH. Juhadi Muhammad
+4. Kiayi Muhammad Dawam
+5. Drs. KH. Kiagus Zaenal Mubarok, MAP.
+6. KH. Suhada
+7. KH. Iman Setiawan Latief, S.H.
+8. KH. Iman Budiman, S.Th.,M.Ag.
+9. Dr. KH. Nandang Koswara, M.Pd.
+10. Dr. H. Supriadi, S.Ag., S.H.,M.H.
+
+IV. IMAM BESAR
+Prof. Dr. KH. Rahmat Syafei, MA
+WAKIL IMAM BESAR
+Prof. Dr. H. Rosihon Anwar, M.Ag.
+
+V. KETUA DKM
+Prof. Dr. KH. Adang Hambali
+WAKIL KETUA
+1. KH. Aziz Hakim Syaerozie, S.Fil, MA.
+2. KH. Oden Samsudin, S.Pd.1.
+3. H. Ijang Faisal, M.Si
+4. H. Ary Gifari
+
+VI. SEKRETARIS
+H. Diky Mohamad Syafei, S.Pd., MAP.
+WAKIL SEKRETARIS
+1. KH. Amin Baejuri Asnaf, S.Ag.,M.Pd.
+2. KH. Asep Sunarya, S.Pd.,M.Pd.1
+
+VII. BENDAHARA
+H. Enjang, S.S.
+WAKIL BENDAHARA
+1. KH. Cahya M. Nuh, SE.,M.Si.
+2. KH. Dadang Nawawi
+
+VIII. KEPALA BIDANG IMAROH
+KH. Dadi Abdurahman
+WAKIL BIDANG IMAROH
+1. KH. Ade Hidayat
+2. H. Nurdin Hidayat
+
+IX. KEPALA BIDANG IDAROH
+Drs. KH. Habib Umar Assaqqof
+WAKIL BIDANG IDAROH
+1. KH. Ade Sajidin
+2. Paeruzillah, SE.,MAP
+
+X. KEPALA BIDANG RIAYAH
+Drs. H. Dikdik Dahlan Lukman, M.Hum.
+KEPALA BIDANG RIAYAH
+1. KH. Asep Totoh Ghozali, M.Ag.,MBA
+2. Ir. H. Toni Kusna',
+                'BPIC'
+            ),
+            new Mitra(
+                12,
+                'At Tawuun Bogor',
+                'https://uloom.id/wp-content/uploads/2018/11/Masjid-Attaauwn1-1130x650.jpg',
+                'Masjid At-Tawun adalah salah satu masjid ikonik yang terletak di kawasan Puncak, Kabupaten Bogor, Jawa Barat. Masjid ini dibangun untuk memenuhi kebutuhan tempat ibadah bagi masyarakat setempat maupun para wisatawan yang melintasi jalur Puncak, yang setiap harinya ramai dilewati pengunjung dari berbagai daerah. Kehadiran Masjid At-Tawun tidak hanya sebagai sarana ibadah, tetapi juga sebagai ruang peristirahatan dan pusat kegiatan keagamaan bagi umat Islam di kawasan tersebut.
+
+                Dibangun di lahan yang cukup luas dengan suasana sejuk khas pegunungan, Masjid At-Tawun menawarkan pengalaman spiritual yang berpadu dengan keindahan alam. Arsitekturnya menampilkan desain modern dengan sentuhan Islami, serta ruang dalam yang lapang sehingga mampu menampung banyak jamaah sekaligus. Lingkungan sekitar masjid ditata dengan taman hijau dan area terbuka yang memberikan kenyamanan bagi pengunjung, baik untuk beribadah maupun sekadar beristirahat dalam perjalanan.
+
+                Seiring berjalannya waktu, Masjid At-Tawun berkembang menjadi salah satu destinasi wisata religi populer di jalur Puncak. Banyak jamaah dan wisatawan yang singgah untuk melaksanakan salat, mengikuti pengajian, atau menikmati suasana teduh di sekitar masjid. Fungsinya yang menyatukan aspek religius, sosial, dan rekreasi menjadikan Masjid At-Tawun bukan hanya simbol spiritual, tetapi juga bagian penting dari identitas kawasan Puncak sebagai wilayah wisata dan peristirahatan.',
+                'I. PEMBINA 
+                1. Gubernur
+2. Wakil Gubernur
+3. Sekretaris Daerah Provinsi Jawa Barat
+4. Bupati Bogor
+5. Kepala Kemenag Kab. Bogor
+6. Ketua MUI Kab. Bogor
+
+II. KETUA DKM
+KH. Ahmad Kosasih, S.Pd.l
+WAKIL KETUA
+H. Yadi Supriadi
+
+III. SEKRETARIS
+Yosep Jomantara, S.Ag.
+WAKIL SEKRETARIS
+H. Awaludin, S.Pd.
+Deni Iskandar
+
+IV. BENDAHARA
+Herman Suherman, A.Md.
+WAKIL BENDAHARA
+1. H. Iwan Rudi Gunawan
+2. KH. Ujang Frahan
+
+V. KEPALA BIDANG IDAROH
+H. Asep Dikdik
+WAKIL BIDANG IDAROH
+1. KH. Badrukamal, Ky.
+2. H. Budiana. S.E.
+3. H. Yanto
+4. Ahmad Kolaid
+
+VI. KEPALA BIDANG IMAROH
+Nurkholis, S.Pd.I.
+WAKIL BIDANG IMAROH
+1. Drs. H. Asep Ruhiat
+2 Muhammad Maftuh Nasuhi
+3. Rahmatullah
+
+VII. KEPALA BIDANG RIAYAH
+Endang Badruzaman
+WAKIL BIDANG RIAYAH
+1. KH. Syaripudin, M.Si.
+2. Dedi Rohayadi
+3. H. Ahmad Satibi
+',
+                'BPIC'
+            ),
+            new Mitra(
+                13,
+                'Nurul Quran',
+                'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nobN95OVm8izSUOPzvcJIVAyPabeKDoh2HrSP95RFkQlSBpoVzyofoQxXgWDfjpL8ufcPg0RnylYh_z4xpZjraxRtf9QiiAy5Bxnqp_5iTfz0hDGCnVLP7xe91u8Zhro3LiEAw=s1360-w1360-h1020-rw',
+                'Mesjid Nurul Qur’an menjadi salah satu penunjang kegiatan sholat 5 waktu untuk kegiatan yang ada di area gedung Lembaga Pengembangan Tilawatil Qur’an (LPTQ) Provinsi Jawa Barat. Masjid Nurul Qur’an merupakan salah satu masjid representatif yang dibangun oleh Pemerintah Provinsi Jawa Barat sebagai bagian dari upaya menyediakan sarana ibadah yang layak sekaligus pusat pembinaan umat Islam. Kehadirannya dimaksudkan untuk memperkuat fungsi masjid tidak hanya sebagai tempat salat, tetapi juga sebagai ruang dakwah, pendidikan, dan pengembangan budaya Islam di tingkat provinsi.
+
+                Nama “Nurul Qur’an” yang berarti cahaya Al-Qur’an dipilih untuk menegaskan peran masjid ini sebagai sumber pencerahan spiritual bagi masyarakat. Dengan semangat tersebut, masjid ini diharapkan menjadi pusat kegiatan yang menginspirasi umat Islam untuk menjadikan Al-Qur’an sebagai pedoman hidup, baik dalam kehidupan pribadi, bermasyarakat, maupun dalam membangun peradaban yang berakhlak mulia.
+
+                Secara arsitektural, Masjid Nurul Qur’an dibangun dengan desain modern yang berpadu dengan nuansa Islami. Ruang dalamnya luas untuk menampung banyak jamaah, sementara lingkungan sekitarnya ditata agar nyaman sebagai tempat beribadah maupun kegiatan keagamaan lainnya. Kehadirannya juga melengkapi jaringan masjid-masjid besar di Jawa Barat yang berfungsi sebagai simbol religius, pusat dakwah, serta sarana kebersamaan umat.
+
+                Dengan segala potensi dan perannya, Masjid Nurul Qur’an diharapkan mampu menjadi pusat pembinaan umat Islam Jawa Barat, tempat berkumpulnya masyarakat untuk memperdalam ilmu agama, mempererat ukhuwah, serta menjadikan masjid sebagai pusat kegiatan sosial yang bermanfaat bagi seluruh lapisan masyarakat.',
+                'I. PEMBINA
+                 1. Gubernur Jawa Barat
+2. Wakil Gubenur Jawa Barat
+3. Sekretaris Daerah Provinsi Jawa Barat
+
+II. PIC Mesjid
+Koordinator : H. Totoh Muhidin, S.E.
+Wakil Koordinator : H. Encep Nurzaman, S.Ag., M.A.Р.
+
+III. KETUA DKM : Drs. H. Dede Suherman, M.Ag.
+IV. SEKRETARIS : Nahid Hilmi, S.Sos.l.
+V. BENDAHARA : Mualipin
+VI. BIDANG IDAROH : Evin Sopyan, S.E.
+VII. BIDANG IMAROH : Moch. Yassir Sjarif
+VIII. BIDANG RIAYAH :    1. Perdi Julhadi, 
+2. Dadang Supriatna.
+
+IX. BIDANG KEAMANAN :
+1. Ata Suhendar;
+2. Hendrik Awaludin;
+3. Reza Fajar Ismail;
+4. Septiyanto;
+5. Muhammad Hikmah Ali S.;
+6. Ade Rukandi.
+
+X. BIDANG KEBERSIHAN: 
+1. Dede Wahyudin;
+2. Yayan Suryana;
+3. Dian Suherman;
+4. Devitya.',
+                'BPIC'
+            ),
+
             // Kategori Al-Jabbar
             new Mitra(
                 1,
@@ -34,7 +400,7 @@ class Mitra
                 Selanjutnya pada tanggal 8 mei 2019 dilantik kepengurusan masjid AL-jabbar Kalipucang oleh SEKDA Jabar Dengan Ketua DKM KH. R. Hilal Faridz T., S.Pd.I, MM yang berlaku selama 3 (tiga) tahun. Pada saat itu masjid belum sepenuhnya rampung (masjid yang masih bocor dan toilet pria yang belum bias digunakan ditambah per airan yang terbatas maka ketua DKM mengeluarkan uang pribadi ditambah swadaya lainya memperbaiki hal tersebut yang diperkirakan menghabiskan biaya kurang lebih Rp. 40.000.000,- 
                  
                 Selanjutnya ketua DKM mengutus santri yang bernama Budiyanto untuk tinggal dan menempati Gedung secretariat yang sama belum rampung pembangunannya sampai sekarang, namun seiring waktu kegiatan demi kegiatan berjalan dan alhamdulilah semua kendala dan kekurangan bisa diatasi. Pada tanggal 1 April 2022 pemerintah Provinsi Jawa barat memperpanjang dan melantik kembali kepengurusan DKM melalui ZOOM Meting menetapkan dengan KETUA DKM KH. R. Hilal Faridz T., S.Pd.I., MM untuk melaksanakan tugas selama 3 tahun yakni sampai sekarang.',
-                'I. PEMBINA
+                "I. PEMBINA
 1. Gubernur
 2. Wakil Gubernur
 3. Sekretaris Daerah Provinsi Jawa Barat
@@ -67,9 +433,15 @@ Ky. Marqon Al-Ansori Ky. Asep Abdullah Siraj
 VII. KETUA BIDANG RI’AYAH
 KH. Muhammad Irfan
 WAKIL KETUA BIDANG RI’AYAH
-KH. Dasep Supriatna, M.Pd
-',
-                'Al-Jabbar'
+KH. Dasep Supriatna, M.Pd",
+                'Al-Jabbar', // <-- jangan lupa koma di sini
+                [
+                    // setiap gambar: associative array berisi url, judul, kategori (opsional)
+                    ['url' => 'https://tni-au.mil.id/images/sw/lg/2024/03/WhatsApp%20Image%202024-03-08%20at%2015.39.44_5158eb30-1020617-1080.webp', 'judul' => 'Kegiatan Gotong Royong', 'kategori' => 'kegiatan'],
+                    ['url' => 'https://lapaspekanbaru.id/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-03-at-10.07.41.jpeg', 'judul' => 'Tadarus', 'kategori' => 'Mengaji'],
+                    ['url' => 'https://muslimahwahdah.or.id/storage/586/WhatsApp-Image-2022-09-26-at-06.44.44.jpeg', 'judul' => 'Kajian Rutin', 'kategori' => 'bangunan'],
+                    ['url' => 'https://tebuireng.online/wp-content/uploads/2022/07/idul-adha-tebuireng-putri.jpg', 'judul' => 'Shalat Idul Adha', 'kategori' => 'bangunan'],
+                ]
             ),
             new Mitra(
                 2,
@@ -467,7 +839,7 @@ WAKIL BIDANG RI’AYAH
 ',
                 'Al-Jabbar'
             ),
-                 new Mitra(
+            new Mitra(
                 14,
                 'Al Jabbar Rancabuaya Garut',
                 'https://radarjabar.disway.id/upload/a576cb071b6321af5171adb4c6a565b8.jpg',
@@ -581,364 +953,7 @@ Keistimewaan lainnya ada pada lantai dasar atau ma’rodh yang berisi museum sej
             ),
 
             // Kategori BPIC
-            new Mitra(
-                9,
-                'Masjid Raya Bandung',
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Masjid_Raya_Bandung_dan_Alun-alun_Bandung_%28potrait%29.jpg/1200px-Masjid_Raya_Bandung_dan_Alun-alun_Bandung_%28potrait%29.jpg',
-                'Masjid Raya Bandung, yang dahulu dikenal sebagai Masjid Agung Bandung, merupakan salah satu ikon religius sekaligus sejarah di Kota Bandung. Masjid ini pertama kali dibangun pada tahun 1810, bersamaan dengan pemindahan pusat Kabupaten Bandung dari Dayeuhkolot ke Alun-Alun Bandung oleh Bupati Wiranatakusumah II. Pada awalnya, bangunan masjid sangat sederhana, berdinding anyaman bambu dengan atap ijuk, dan menjadi pusat kegiatan keagamaan bagi masyarakat sekitar alun-alun.
 
-                Seiring berjalannya waktu, masjid ini mengalami banyak perubahan dan renovasi besar. Atapnya mulai diganti genteng pada 1875, lalu ditambahkan serambi serta menara kecil pada dekade 1930-an. Renovasi terbesar pertama dilakukan menjelang Konferensi Asia Afrika tahun 1955, di mana masjid diperbarui dengan gaya modern dan kubah berbentuk kubus runcing. Renovasi serupa kembali dilakukan pada tahun 1967 dan 1973, sehingga wajah masjid semakin berubah mengikuti perkembangan arsitektur masa itu.
-
-                Transformasi paling signifikan terjadi pada periode 2001 hingga 2003, ketika pemerintah Provinsi Jawa Barat melakukan perombakan total. Masjid kemudian tampil megah dengan kubah bawang berwarna emas, dua menara kembar setinggi 81 meter, serta halaman luas yang kini menjadi ruang publik bagi warga. Pada 4 Juni 2003, masjid ini diresmikan kembali dan diberi nama baru, yaitu Masjid Raya Bandung Provinsi Jawa Barat.
-
-                Kini, Masjid Raya Bandung tidak hanya berfungsi sebagai tempat ibadah bagi ribuan jamaah, tetapi juga menjadi pusat dakwah, pendidikan Islam, dan kegiatan sosial masyarakat. Lokasinya yang berada tepat di sisi barat Alun-Alun Bandung membuat masjid ini menjadi salah satu destinasi wisata religi yang populer, sekaligus simbol kebanggaan masyarakat Jawa Barat',
-                'I. PEMBINA
-            1. Gubernur
-            2. Wakil Gubernur
-
-            II. PENASEHAT
-            2. Wakil Gubernur
-1. Sekretaris Daerah
-2. Asisten Pemerintahan dan Kesejahteraan Rakyat
-3. Kepala Kanwil Kemenag Provinsi Jawa Barat
-4. Kepala Biro Kesejahteraan Rakyat
-5. Ketua MUI Jawa Barat
-6. Ketua PW DMI Provinsi Jawa
-
-III. PENGARAH 
-1. KH. Ade Fatahilah, S.Pd.1
-2. Dr. KH. Asep Jamaludin
-3. Prof. Dr. KH. Maman Abdurahman, MA
-4. Drs. KH. Muhtar Gandaatmaja
-5. Dr. H. Zam Zam Erawan
-6. Dr. H. Engkos Kosasih, Lc., M.A.
-7. Dr. H. Supriadi, S.Ag., S.H.,M.H.
-
-IV. IMAM BESAR
-Dr. KH. Abun Bunyamin, MA
-WAKIL IMAM BESAR
-KH. Sadullah, SQ.,M.Pd.1
-
-V. KETUA DKM
-Drs. KH. A. Hasyim Asyari, M.Ag
-1. KH. Olan Maulana
-2. Dr. KH. Ajid Tohir, MA
-H. Mamat Rahmat, M.Ag.
-
-VI. SEKRETARIS
-H. Mamat Rahmat, M.Ag.
-WAKIL SEKRETARIS
-1. KH. Iqbal Muhajir, Lc.
-2. H. Dindin Ibrahim Mulyana, S.Ag
-
-VII. BENDAHARA
-H. Kani, A.Md.
-WAKIL BENDAHARA
-1. Ovie Rizki Oktavianti, SAP
-2. Ir. Ono Surono
-3. KH. Ahmad Haidar
-
-VIII. KETUA BIDANG IDAROH
-KH. Rifat Abi Syahid, M.Pdl.
-
-1. KEPEGAWAIAN & UMUM
-Neni Nuriyah Nurfaridah, S.Ag., M
-2. PELAYANAN SOSIAL & KEUMATAN
-KH. Zaenal Abidin
-3.PELAYANAN IBADAH RUTIN
-Dr. KH. Muh. Sulhan, M.Ag.
-4. DAKWAH 
-Dr. KH. R. Edi Komarudin, M.Ag
-
-IX. KETUA BIDANG IMAROH
-Dr. KH. R. Edi Komarudin, M.Ag
-1. PENDIDIKAN & KETERAMPILAN
-KH. Aceng Amrullah, S.Ag., M.Pd.I
-2. PHBI
-H. Baehaki Jubaedi
-3. ZIS & WAKAF
-KH. Sodik Nawawi
-4. REMAJA MASJID
-KH. Zaenal Mustofa
-5. KBIHU
-Nahid Hilmi, S.Sos.I
-
-X. KETUA BIDANG RI’AYAH
-KH. Anang Jauharudin, M.MPd
-1. PEMELIHARAAN BANGUNAN & KEBERSIHAN
-M.D.Syahrul Ramdhani, S.Sos.I.
-2. PERALATAN & PERLENGKAPAN
-H. Endang Mashum, S.H.
-3. LINGKUNGAN & PERTAMANAN
-KH. Abdurrahman Affandi
-4. KEAMANAN
-KH. Ajat Sudrajat, S.Ag.,M.Pd.I.
-',
-                'BPIC'
-            ),
-            new Mitra(
-                10,
-                'Masjid Raya Raudhatul Irfan Sukabumi',
-                'https://suaramasjid.com/wp-content/uploads/2016/09/masjid_raya_raudhatul_irfan-1.jpg',
-                'Pembangunan Masjid Raya Raudahtul Ifan diprakarsai oleh Provinsi Jawa Barat pada masa kepemimpinan Gubernur Ahmad Heriawan pada tahun 2012 dan di resmikan pada tanggal 7 juli 2014 oleh Bapak Gubernur. Masjid Raya Raudhatul Irfan berdiri megah di sepanjang Jalan Raya Sukabumi–Bogor, tepatnya di Desa Cibolang Kaler, Kecamatan Cisaat, Kabupaten Sukabumi. Ide pembangunannya bermula dari inisiatif Pemerintah Provinsi Jawa Barat bersama Dinas Bina Marga Jabar, dengan peletakan batu pertama oleh Gubernur Ahmad Heryawan pada 29 Januari 2013. Setelah melewati proses pembangunan, masjid ini resmi diresmikan pada 7 Juli 2014, dengan harapan dapat mempermudah masyarakat menunaikan ibadah di sepanjang jalur utama—terutama bagi mereka yang dalam perjalanan—serta menjadi pusat kegiatan keagamaan dan sosial.
-
-                Dibangun di atas lahan seluas 9,000 m² dengan luas bangunan utama sekitar 900 m², masjid ini dilengkapi fasilitas yang mendukung kenyamanan jamaah, seperti area parkir luas, taman, dan perkantoran bagi pengurus DKM. Ciri khas arsitektur masjid ini terlihat dari interior dominan warna hijau-putih yang dihiasi ornamen bergaya Persia, serta ruang utama yang luas dengan karpet indah dan kaligrafi di setiap sudutnya. Nama “Raudhatul Irfan” sendiri diambil dari kitab tafsir populer hasil karya ulama besar Sukabumi, K.H. Ahmad Sanusi, yang bermakna "taman pengetahuan", sebagai cerminan harapan agar masjid ini menjadi pusat pembelajaran dan peradaban Islam di Sukabumi.
-
-                Sebagai pusat spiritual dan sosial, Masjid Raya Raudhatul Irfan aktif menyelenggarakan berbagai kegiatan, seperti pengajian rutin setiap Ahad pagi (dikenal sebagai “JIHAD”), kajian oleh organisasi seperti HMI atau PMII, serta donor darah, panti asuhan, dan pembagian takjil pada bulan Ramadan. Lokasinya yang strategis di jalur utama juga membuat masjid ini menjadi tempat transit sekaligus peristirahatan bagi jamaah dan pelancong, memadukan fungsi religius dan kebersamaan.',
-                'I. PEMBINA
-                1. Gubernur
-2. Wakil Gubernur
-3. Sekretaris Daerah Provinsi Jawa Barat
-4. Bupati Sukabumi
-5. Ketua MUI Kab. Sukabumi
-
-II. PENASEHAT
-1. KH. Azis Matsuro
-2. KH. M. Mudrikah Hanafi
-3. KH. M. Anshori Fudholi
-4. Dr. KH.E. Supriatna Mubarok
-5. KH. Dadan Sujai, M.Ag
-
-III. KETUA DKM
-H. Faozul Akbar
-WAKIL KETUA 
-1. lyan Mahfudin, S.Ag., M.Pd
-2. H.Dadang S, Shiddieq
-3. H. Abdul Malik, S.Ag
-4. Drs. Deni Suandi
-5. H. A. Rifal
-6. Syahid Zulhijah, S.Ag., M.Ag
-7. Drs. Hadis Darmadi., M.Pd
-
-IV. SEKRETARIS
-Hj. Imas Sukaesih, S.lp.
-WAKIL SEKRETARIS
-1. Hasbu Burhanudin, S.Ag
-2. Abdullah Fadli, S.Pd.I
-3. Abdul Jabar, S.Pd.i
-4. M. Jihad
-
-V. BENDAHARA
-Mochamad Erdi Yanuardi, M.Ab
-WAKIL BENDAHARA
-1. Umar Syakir Amin, S.Sos
-2. H. Budi Irawan
-3. Ridwan Mochamad Harun
-4. Hj. Elis Nurbaeti
-
-
-VI. KEPALA BIDANG IDAROH
-H. Lilip Abdul Kholiq
-WAKIL BIDANG IDAROH
-1. H. M. Sofyan Tsauri
-2. M. Kamiludin
-3. Jana Jaenudin, S.Si
-4. M.Fikri R.F. S.H
-5. Alfi Husaeni, S.Pd.I.
-
-VII. KEPALA BIDANG IMAROH
-KH. Maftuhin Ahmad,S,Ag., M.MPd
-WAKIL  BIDANG IMAROH
-1. H. Asep Alam
-2. KH. Nurdin Mubarok
-3. Deden Sukendar, M.Ag
-4. Epi Gunawan
-5. Heri Heriadi
-
-VIII. KEPALA BIDANG RIAYAH
-H. Fikri Ali Majid
-WAKIL  BIDANG RIAYAH
-1. H. Asep Alam
-2. Hadi Hidayatulloh, S.lp.
-3. Empep Andri
-4. Н. Сеcep Abdul Muiz
-5. Ending Hoerudin',
-                'BPIC'
-            ),
-            new Mitra(
-                11,
-                'Pusdai Jawa Barat',
-                'https://karyakubah.com/wp-content/uploads/2020/01/Pusdai.jpg',
-                'Pemerintah Provinsi Jawa Barat sejak lama memiliki cita-cita untuk mewujudkan sebuah Pusat Dakwah Islam (Pusdai) sekaligus masjid raya yang representatif di ibu kota provinsi, yaitu Kota Bandung. Hingga saat itu, Pemerintah Kotamadya Bandung sendiri belum memiliki bangunan khusus yang dapat menampung fungsi tersebut.
-
-                Rencana pembangunan Pusdai sebenarnya sudah ada sejak lama, dan merupakan kelanjutan dari gagasan yang dicetuskan pada tahun 1951. Perencanaan ini juga telah disesuaikan dengan Rencana Umum Tata Ruang Kota Bandung.
-
-                Secara pengertian, Pusat Dakwah Islam (Pusdai) Jawa Barat dapat dipahami sebagai “masjid yang diperluas”. Artinya, masjid tidak hanya berfungsi sebagai tempat ibadah, melainkan juga menjadi pusat aktivitas pengabdian agama Islam bagi pembangunan masyarakat, sebagaimana tujuan pokok yang disebutkan dalam Al-Qur’an. Seiring perkembangan zaman, baik dalam lingkup dunia Islam secara umum maupun di Indonesia khususnya, Pusdai hadir sebagai wadah untuk berbagai kegiatan umat Islam, baik yang berakar dari tradisi masa lampau, kebutuhan saat ini, maupun tantangan di masa depan.
-
-                Kehadiran Pusdai juga dimaksudkan untuk memelihara dan mengembangkan nilai-nilai kebudayaan Islam, yang berjalan beriringan dengan berbagai sarana keislaman yang sudah ada, termasuk hasil swadaya masyarakat. Dengan demikian, Pusdai berfungsi sebagai pusat penyebaran ajaran Islam sekaligus pusat kebudayaan Islam di Jawa Barat.
-
-                Lebih jauh, Pusdai Jawa Barat merupakan upaya nyata dalam merespons kehidupan umat manusia yang mencakup hubungan dengan Tuhan, sesama manusia, dan alam semesta. Kompleks Pusdai sendiri dirancang untuk dapat menampung tiga kelompok aktivitas utama, yaitu keagamaan, sosial, dan kultural.
-
-                Dengan keberadaannya, Pusdai diharapkan menjadi pusat pengembangan umat Islam menuju masyarakat yang tercerahkan, berdaya cipta, serta mampu melakukan pembaruan secara ilmiah dan berkelanjutan.',
-                'I. PEMBINA
-                1. Gubernur
-                2. Wakil Gubernur
-
-                II. PENASEHAT
-1. Sekretaris Daerah
-2. Asisten Pemerintahan dan Kesejahteraan Rakyat
-3. Kepala Kanwil Kemenag Provinsi Jawa Barat
-4. Kepala Biro Kesejahteraan Rakyat
-5. Ketua MUI Jawa Barat
-6. Ketua PW DMI Provinsi Jawa Barat
-
-III. PENGARAH
-1. KH. Chotimul Banin Muhyidin
-2. KH. Sofyan Yahya, MA
-3. KH. Juhadi Muhammad
-4. Kiayi Muhammad Dawam
-5. Drs. KH. Kiagus Zaenal Mubarok, MAP.
-6. KH. Suhada
-7. KH. Iman Setiawan Latief, S.H.
-8. KH. Iman Budiman, S.Th.,M.Ag.
-9. Dr. KH. Nandang Koswara, M.Pd.
-10. Dr. H. Supriadi, S.Ag., S.H.,M.H.
-
-IV. IMAM BESAR
-Prof. Dr. KH. Rahmat Syafei, MA
-WAKIL IMAM BESAR
-Prof. Dr. H. Rosihon Anwar, M.Ag.
-
-V. KETUA DKM
-Prof. Dr. KH. Adang Hambali
-WAKIL KETUA
-1. KH. Aziz Hakim Syaerozie, S.Fil, MA.
-2. KH. Oden Samsudin, S.Pd.1.
-3. H. Ijang Faisal, M.Si
-4. H. Ary Gifari
-
-VI. SEKRETARIS
-H. Diky Mohamad Syafei, S.Pd., MAP.
-WAKIL SEKRETARIS
-1. KH. Amin Baejuri Asnaf, S.Ag.,M.Pd.
-2. KH. Asep Sunarya, S.Pd.,M.Pd.1
-
-VII. BENDAHARA
-H. Enjang, S.S.
-WAKIL BENDAHARA
-1. KH. Cahya M. Nuh, SE.,M.Si.
-2. KH. Dadang Nawawi
-
-VIII. KEPALA BIDANG IMAROH
-KH. Dadi Abdurahman
-WAKIL BIDANG IMAROH
-1. KH. Ade Hidayat
-2. H. Nurdin Hidayat
-
-IX. KEPALA BIDANG IDAROH
-Drs. KH. Habib Umar Assaqqof
-WAKIL BIDANG IDAROH
-1. KH. Ade Sajidin
-2. Paeruzillah, SE.,MAP
-
-X. KEPALA BIDANG RIAYAH
-Drs. H. Dikdik Dahlan Lukman, M.Hum.
-KEPALA BIDANG RIAYAH
-1. KH. Asep Totoh Ghozali, M.Ag.,MBA
-2. Ir. H. Toni Kusna',
-                'BPIC'
-            ),
-            new Mitra(
-                12,
-                'At Tawuun Bogor',
-                'https://uloom.id/wp-content/uploads/2018/11/Masjid-Attaauwn1-1130x650.jpg',
-                'Masjid At-Tawun adalah salah satu masjid ikonik yang terletak di kawasan Puncak, Kabupaten Bogor, Jawa Barat. Masjid ini dibangun untuk memenuhi kebutuhan tempat ibadah bagi masyarakat setempat maupun para wisatawan yang melintasi jalur Puncak, yang setiap harinya ramai dilewati pengunjung dari berbagai daerah. Kehadiran Masjid At-Tawun tidak hanya sebagai sarana ibadah, tetapi juga sebagai ruang peristirahatan dan pusat kegiatan keagamaan bagi umat Islam di kawasan tersebut.
-
-                Dibangun di lahan yang cukup luas dengan suasana sejuk khas pegunungan, Masjid At-Tawun menawarkan pengalaman spiritual yang berpadu dengan keindahan alam. Arsitekturnya menampilkan desain modern dengan sentuhan Islami, serta ruang dalam yang lapang sehingga mampu menampung banyak jamaah sekaligus. Lingkungan sekitar masjid ditata dengan taman hijau dan area terbuka yang memberikan kenyamanan bagi pengunjung, baik untuk beribadah maupun sekadar beristirahat dalam perjalanan.
-
-                Seiring berjalannya waktu, Masjid At-Tawun berkembang menjadi salah satu destinasi wisata religi populer di jalur Puncak. Banyak jamaah dan wisatawan yang singgah untuk melaksanakan salat, mengikuti pengajian, atau menikmati suasana teduh di sekitar masjid. Fungsinya yang menyatukan aspek religius, sosial, dan rekreasi menjadikan Masjid At-Tawun bukan hanya simbol spiritual, tetapi juga bagian penting dari identitas kawasan Puncak sebagai wilayah wisata dan peristirahatan.',
-                'I. PEMBINA 
-                1. Gubernur
-2. Wakil Gubernur
-3. Sekretaris Daerah Provinsi Jawa Barat
-4. Bupati Bogor
-5. Kepala Kemenag Kab. Bogor
-6. Ketua MUI Kab. Bogor
-
-II. KETUA DKM
-KH. Ahmad Kosasih, S.Pd.l
-WAKIL KETUA
-H. Yadi Supriadi
-
-III. SEKRETARIS
-Yosep Jomantara, S.Ag.
-WAKIL SEKRETARIS
-H. Awaludin, S.Pd.
-Deni Iskandar
-
-IV. BENDAHARA
-Herman Suherman, A.Md.
-WAKIL BENDAHARA
-1. H. Iwan Rudi Gunawan
-2. KH. Ujang Frahan
-
-V. KEPALA BIDANG IDAROH
-H. Asep Dikdik
-WAKIL BIDANG IDAROH
-1. KH. Badrukamal, Ky.
-2. H. Budiana. S.E.
-3. H. Yanto
-4. Ahmad Kolaid
-
-VI. KEPALA BIDANG IMAROH
-Nurkholis, S.Pd.I.
-WAKIL BIDANG IMAROH
-1. Drs. H. Asep Ruhiat
-2 Muhammad Maftuh Nasuhi
-3. Rahmatullah
-
-VII. KEPALA BIDANG RIAYAH
-Endang Badruzaman
-WAKIL BIDANG RIAYAH
-1. KH. Syaripudin, M.Si.
-2. Dedi Rohayadi
-3. H. Ahmad Satibi
-',
-                'BPIC'
-            ),
-            new Mitra(
-                13,
-                'Nurul Quran',
-                'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nobN95OVm8izSUOPzvcJIVAyPabeKDoh2HrSP95RFkQlSBpoVzyofoQxXgWDfjpL8ufcPg0RnylYh_z4xpZjraxRtf9QiiAy5Bxnqp_5iTfz0hDGCnVLP7xe91u8Zhro3LiEAw=s1360-w1360-h1020-rw',
-                'Mesjid Nurul Qur’an menjadi salah satu penunjang kegiatan sholat 5 waktu untuk kegiatan yang ada di area gedung Lembaga Pengembangan Tilawatil Qur’an (LPTQ) Provinsi Jawa Barat. Masjid Nurul Qur’an merupakan salah satu masjid representatif yang dibangun oleh Pemerintah Provinsi Jawa Barat sebagai bagian dari upaya menyediakan sarana ibadah yang layak sekaligus pusat pembinaan umat Islam. Kehadirannya dimaksudkan untuk memperkuat fungsi masjid tidak hanya sebagai tempat salat, tetapi juga sebagai ruang dakwah, pendidikan, dan pengembangan budaya Islam di tingkat provinsi.
-
-                Nama “Nurul Qur’an” yang berarti cahaya Al-Qur’an dipilih untuk menegaskan peran masjid ini sebagai sumber pencerahan spiritual bagi masyarakat. Dengan semangat tersebut, masjid ini diharapkan menjadi pusat kegiatan yang menginspirasi umat Islam untuk menjadikan Al-Qur’an sebagai pedoman hidup, baik dalam kehidupan pribadi, bermasyarakat, maupun dalam membangun peradaban yang berakhlak mulia.
-
-                Secara arsitektural, Masjid Nurul Qur’an dibangun dengan desain modern yang berpadu dengan nuansa Islami. Ruang dalamnya luas untuk menampung banyak jamaah, sementara lingkungan sekitarnya ditata agar nyaman sebagai tempat beribadah maupun kegiatan keagamaan lainnya. Kehadirannya juga melengkapi jaringan masjid-masjid besar di Jawa Barat yang berfungsi sebagai simbol religius, pusat dakwah, serta sarana kebersamaan umat.
-
-                Dengan segala potensi dan perannya, Masjid Nurul Qur’an diharapkan mampu menjadi pusat pembinaan umat Islam Jawa Barat, tempat berkumpulnya masyarakat untuk memperdalam ilmu agama, mempererat ukhuwah, serta menjadikan masjid sebagai pusat kegiatan sosial yang bermanfaat bagi seluruh lapisan masyarakat.',
-                'I. PEMBINA
-                 1. Gubernur Jawa Barat
-2. Wakil Gubenur Jawa Barat
-3. Sekretaris Daerah Provinsi Jawa Barat
-
-II. PIC Mesjid
-Koordinator : H. Totoh Muhidin, S.E.
-Wakil Koordinator : H. Encep Nurzaman, S.Ag., M.A.Р.
-
-III. KETUA DKM : Drs. H. Dede Suherman, M.Ag.
-IV. SEKRETARIS : Nahid Hilmi, S.Sos.l.
-V. BENDAHARA : Mualipin
-VI. BIDANG IDAROH : Evin Sopyan, S.E.
-VII. BIDANG IMAROH : Moch. Yassir Sjarif
-VIII. BIDANG RIAYAH :    1. Perdi Julhadi, 
-2. Dadang Supriatna.
-
-IX. BIDANG KEAMANAN :
-1. Ata Suhendar;
-2. Hendrik Awaludin;
-3. Reza Fajar Ismail;
-4. Septiyanto;
-5. Muhammad Hikmah Ali S.;
-6. Ade Rukandi.
-
-X. BIDANG KEBERSIHAN: 
-1. Dede Wahyudin;
-2. Yayan Suryana;
-3. Dian Suherman;
-4. Devitya.',
-                'BPIC'
-            ),
         ];
     }
 
@@ -956,13 +971,13 @@ X. BIDANG KEBERSIHAN:
     public static function getByCategory($kategori = null)
     {
         $allMitras = self::all();
-        
+
         if ($kategori) {
-            return array_filter($allMitras, function($mitra) use ($kategori) {
+            return array_filter($allMitras, function ($mitra) use ($kategori) {
                 return $mitra->kategori === $kategori;
             });
         }
-        
+
         return $allMitras;
     }
 
@@ -971,11 +986,11 @@ X. BIDANG KEBERSIHAN:
     {
         $allMitras = self::all();
         $grouped = [];
-        
+
         foreach ($allMitras as $mitra) {
             $grouped[$mitra->kategori][] = $mitra;
         }
-        
+
         return $grouped;
     }
 
@@ -984,13 +999,13 @@ X. BIDANG KEBERSIHAN:
     {
         $allMitras = self::all();
         $categories = [];
-        
+
         foreach ($allMitras as $mitra) {
             if (!in_array($mitra->kategori, $categories)) {
                 $categories[] = $mitra->kategori;
             }
         }
-        
+
         return $categories;
     }
 }
