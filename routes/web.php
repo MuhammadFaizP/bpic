@@ -76,5 +76,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
         
         // Laporan management (CRUD)
         Route::resource('laporan', LaporanController::class);
+        
+        // Laporan preview and download routes
+        Route::get('/laporan/{id}/preview/{type}', [LaporanController::class, 'preview'])
+            ->name('laporan.preview');
+        Route::get('/laporan/{id}/download/{type}', [LaporanController::class, 'download'])
+            ->name('laporan.download');
     });
 });

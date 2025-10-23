@@ -133,7 +133,7 @@ class LaporanController extends Controller
         if ($request->hasFile('file_kinerja')) {
             // Hapus file lama
             if ($laporan->file_kinerja) {
-                Storage::delete($laporan->file_kinerja);
+                Storage::disk('private')->delete($laporan->file_kinerja);
             }
             // Upload file baru
             $laporan->file_kinerja = $this->storeFileWithCustomName($request->file('file_kinerja'), $filePrefix . '_Kinerja', 'laporan/kinerja');
@@ -141,14 +141,14 @@ class LaporanController extends Controller
 
         if ($request->hasFile('file_keuangan')) {
             if ($laporan->file_keuangan) {
-                Storage::delete($laporan->file_keuangan);
+                Storage::disk('private')->delete($laporan->file_keuangan);
             }
             $laporan->file_keuangan = $this->storeFileWithCustomName($request->file('file_keuangan'), $filePrefix . '_Keuangan', 'laporan/keuangan');
         }
 
         if ($request->hasFile('file_aset')) {
             if ($laporan->file_aset) {
-                Storage::delete($laporan->file_aset);
+                Storage::disk('private')->delete($laporan->file_aset);
             }
             $laporan->file_aset = $this->storeFileWithCustomName($request->file('file_aset'), $filePrefix . '_Aset', 'laporan/aset');
         }
@@ -167,19 +167,86 @@ class LaporanController extends Controller
 
         // Hapus files dari storage
         if ($laporan->file_kinerja) {
-            Storage::delete($laporan->file_kinerja);
+            Storage::disk('private')->delete($laporan->file_kinerja);
         }
         if ($laporan->file_keuangan) {
-            Storage::delete($laporan->file_keuangan);
+            Storage::disk('private')->delete($laporan->file_keuangan);
         }
         if ($laporan->file_aset) {
-            Storage::delete($laporan->file_aset);
+            Storage::disk('private')->delete($laporan->file_aset);
         }
 
         // Hapus record dari database
         $laporan->delete();
 
         return redirect()->route('laporan.index')->with('success', 'Laporan berhasil dihapus.');
+    }
+
+    /**
+     * Preview file laporan
+     */
+    public function preview($id, $type)
+    {
+        $laporan = Laporan::findOrFail($id);
+        
+        // Pastikan user hanya bisa preview laporan masjidnya sendiri
+        if ($laporan->masjid_id !== Auth::user()->masjid_id) {
+            abort(403, 'Unauthorized access');
+        }
+        
+        // Tentukan field file berdasarkan type
+        $fileField = 'file_' . $type;
+        
+        // Validasi type
+        if (!in_array($type, ['kinerja', 'keuangan', 'aset'])) {
+            abort(404);
+        }
+
+        // Check if file exists
+        if (!$laporan->$fileField || !Storage::disk('private')->exists($laporan->$fileField)) {
+            abort(404, 'File tidak ditemukan');
+        }
+
+        // Get file path
+        $filePath = Storage::disk('private')->path($laporan->$fileField);
+        $mimeType = Storage::disk('private')->mimeType($laporan->$fileField);
+        $fileName = basename($laporan->$fileField);
+
+        return response()->file($filePath, [
+            'Content-Type' => $mimeType,
+            'Content-Disposition' => 'inline; filename="' . $fileName . '"'
+        ]);
+    }
+
+    /**
+     * Download file laporan
+     */
+    public function download($id, $type)
+    {
+        $laporan = Laporan::findOrFail($id);
+        
+        // Pastikan user hanya bisa download laporan masjidnya sendiri
+        if ($laporan->masjid_id !== Auth::user()->masjid_id) {
+            abort(403, 'Unauthorized access');
+        }
+        
+        // Tentukan field file berdasarkan type
+        $fileField = 'file_' . $type;
+        
+        // Validasi type
+        if (!in_array($type, ['kinerja', 'keuangan', 'aset'])) {
+            abort(404);
+        }
+
+        // Check if file exists
+        if (!$laporan->$fileField || !Storage::disk('private')->exists($laporan->$fileField)) {
+            abort(404, 'File tidak ditemukan');
+        }
+
+        $filePath = Storage::disk('private')->path($laporan->$fileField);
+        $fileName = basename($laporan->$fileField);
+
+        return response()->download($filePath, $fileName);
     }
 
     /**
@@ -208,8 +275,8 @@ class LaporanController extends Controller
         // Buat nama file lengkap
         $fileName = $customName . '.' . $extension;
         
-        // Simpan file dengan nama custom
-        $path = $file->storeAs($directory, $fileName);
+        // Simpan file dengan nama custom ke disk private
+        $path = $file->storeAs($directory, $fileName, 'private');
         
         return $path;
     }

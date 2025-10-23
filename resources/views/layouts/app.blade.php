@@ -42,7 +42,16 @@
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">Dashboard</span>
                     </a>
+                    <a href="{{ route('superadmin.dashboard') }}" 
+                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.dashboard') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+                        <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        </svg>
+                        <span :class="sidebarOpen ? 'block' : 'hidden'">Laporan Masjid</span>
+                    </a>
                     
+
+                    <hr>
                     <a href="{{ route('superadmin.users.index') }}" 
                        class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.users.*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
                         <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
