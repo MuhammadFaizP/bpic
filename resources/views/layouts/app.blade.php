@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-    
+
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="font-sans antialiased bg-gray-100">
     <div x-data="{ sidebarOpen: true }" class="flex h-screen">
-        
+
         <!-- Sidebar -->
-        <aside class="bg-white shadow-lg transition-all duration-300" 
-               :class="sidebarOpen ? 'w-64' : 'w-16'">
-            
+        <aside class="bg-white shadow-lg transition-all duration-300" :class="sidebarOpen ? 'w-64' : 'w-16'">
+
             <div class="flex items-center justify-between p-4 border-b">
-                <h1 class="text-lg font-bold text-gray-800" 
-                    :class="sidebarOpen ? 'block' : 'hidden'">
+                <h1 class="text-lg font-bold text-gray-800" :class="sidebarOpen ? 'block' : 'hidden'">
                     Menu
                 </h1>
                 <button @click="sidebarOpen = !sidebarOpen" class="p-1 rounded hover:bg-gray-100">
                     <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
             </div>
 
             <nav class="p-4 space-y-2">
-                @if(Auth::user()->hasRole('superadmin'))
-                    <a href="{{ route('superadmin.dashboard') }}" 
-                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.dashboard') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+                @if (Auth::user()->hasRole('superadmin'))
+                    <a href="{{ route('superadmin.dashboard') }}"
+                        class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.dashboard') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
                         <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                            <path
+                                d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">Dashboard</span>
                     </a>
-                    <a href="{{ route('superadmin.dashboard') }}" 
-                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.dashboard') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+                    <!-- Menu Laporan Masjid - TAMBAHKAN kondisi masjid.laporan* -->
+                    <a href="{{ route('superadmin.laporan.filter') }}"
+                        class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.laporan.*') || request()->routeIs('superadmin.masjid.laporan*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
                         <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                            <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                            <path fill-rule="evenodd"
+                                d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                                clip-rule="evenodd" />
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">Laporan Masjid</span>
                     </a>
-                    
 
                     <hr>
-                    <a href="{{ route('superadmin.users.index') }}" 
-                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.users.*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+
+                    <!-- Menu CRUD Admin -->
+                    <a href="{{ route('superadmin.users.index') }}"
+                        class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.users.*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
                         <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
+                            <path
+                                d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">CRUD Admin</span>
                     </a>
-                    
-                    <a href="{{ route('superadmin.masjid.index') }}" 
-                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('superadmin.masjid.*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
-                        <svg class="w-5 h-5 mr-3 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M4 8h16v14H4z"/>
-                            <path d="M12 2c-3.314 0-6 2.239-6 5s2.686 5 6 5 6-2.239 6-5-2.686-5-6-5z"/>
-                            <path d="M5 4h2v18H5z"/>
-                            <path d="M17 4h2v18h-2z"/>
-                            <path d="M10 14h4v8h-4z" fill="white"/>
+
+                    <!-- Menu CRUD Masjid - UBAH BAGIAN INI -->
+                    <a href="{{ route('superadmin.masjid.index') }}"
+                        class="flex items-center px-4 py-3 rounded-lg {{ (request()->routeIs('superadmin.masjid.index') || request()->routeIs('superadmin.masjid.create') || request()->routeIs('superadmin.masjid.edit') || request()->routeIs('superadmin.masjid.show')) && !request()->routeIs('superadmin.masjid.laporan*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+                        <svg class="w-5 h-5 mr-3 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path d="M4 8h16v14H4z" />
+                            <path d="M12 2c-3.314 0-6 2.239-6 5s2.686 5 6 5 6-2.239 6-5-2.686-5-6-5z" />
+                            <path d="M5 4h2v18H5z" />
+                            <path d="M17 4h2v18h-2z" />
+                            <path d="M10 14h4v8h-4z" fill="white" />
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">CRUD Masjid</span>
                     </a>
-
                 @elseif(Auth::user()->hasRole('admin'))
-                    <a href="{{ route('admin.dashboard') }}" 
-                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('admin.dashboard') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+                    <a href="{{ route('admin.dashboard') }}"
+                        class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('admin.dashboard') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
                         <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                            <path
+                                d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">Dashboard</span>
                     </a>
-                    
-                    <a href="{{ route('laporan.index') }}" 
-                       class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('laporan.*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
+
+                    <a href="{{ route('laporan.index') }}"
+                        class="flex items-center px-4 py-3 rounded-lg {{ request()->routeIs('laporan.*') ? 'bg-blue-100 text-blue-700' : 'text-gray-700 hover:bg-gray-100' }}">
                         <svg class="w-5 h-5 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z" clip-rule="evenodd"/>
+                            <path fill-rule="evenodd"
+                                d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4zm3 1h2v2H7V5zm2 4H7v2h2V9zm2-4h2v2h-2V5zm2 4h-2v2h2V9z"
+                                clip-rule="evenodd" />
                         </svg>
                         <span :class="sidebarOpen ? 'block' : 'hidden'">CRUD Laporan</span>
                     </a>
@@ -94,9 +105,11 @@
                 <div class="pt-4 border-t">
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
-                        <button type="submit" class="flex items-center w-full px-4 py-3 rounded-lg text-red-600 hover:bg-red-50">
+                        <button type="submit"
+                            class="flex items-center w-full px-4 py-3 rounded-lg text-red-600 hover:bg-red-50">
                             <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
                             </svg>
                             <span :class="sidebarOpen ? 'block' : 'hidden'">Logout</span>
                         </button>
@@ -107,7 +120,7 @@
 
         <!-- Main content -->
         <main class="flex-1 flex flex-col overflow-hidden">
-            
+
             <!-- Header -->
             <header class="bg-white shadow px-6 py-4">
                 <div class="flex items-center justify-between">
@@ -118,7 +131,7 @@
                             <h1 class="text-xl font-semibold text-gray-800">Dashboard</h1>
                         @endif
                     </div>
-                    
+
                     <div class="flex items-center space-x-4">
                         <!-- User Info -->
                         <div class="flex items-center space-x-2">
@@ -141,22 +154,19 @@
     </div>
 
     <!-- Flash Messages -->
-    @if(session('success'))
-        <div x-data="{ show: true }" 
-             x-show="show" 
-             x-init="setTimeout(() => show = false, 4000)"
-             class="fixed top-4 right-4 z-50 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg">
+    @if (session('success'))
+        <div x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 4000)"
+            class="fixed top-4 right-4 z-50 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg">
             {{ session('success') }}
         </div>
     @endif
 
-    @if(session('error'))
-        <div x-data="{ show: true }" 
-             x-show="show" 
-             x-init="setTimeout(() => show = false, 4000)"
-             class="fixed top-4 right-4 z-50 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg">
+    @if (session('error'))
+        <div x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 4000)"
+            class="fixed top-4 right-4 z-50 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg">
             {{ session('error') }}
         </div>
     @endif
 </body>
+
 </html>

@@ -20,21 +20,6 @@
                 </p>
             </div>
 
-            <!-- Action Button -->
-            <div class="flex justify-start">
-                <a href="{{ route('laporan.create') }}" 
-                   class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 
-                          text-white font-medium rounded-lg shadow-lg hover:shadow-xl transform 
-                          hover:-translate-y-0.5 transition-all duration-200 group">
-                    <svg class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" 
-                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-                              d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
-                    </svg>
-                    Upload Laporan Baru
-                </a>
-            </div>
-
             <!-- Reports Table -->
             <div class="bg-white rounded-xl shadow-sm border overflow-hidden">
                 <div class="px-6 py-4 border-b border-gray-200">
@@ -55,7 +40,7 @@
                                 <th class="px-6 py-4 text-xs font-medium text-gray-500 uppercase tracking-wider text-center">Kinerja</th>
                                 <th class="px-6 py-4 text-xs font-medium text-gray-500 uppercase tracking-wider text-center">Keuangan</th>
                                 <th class="px-6 py-4 text-xs font-medium text-gray-500 uppercase tracking-wider text-center">Aset</th>
-                                <th class="px-6 py-4 text-xs font-medium text-gray-500 uppercase tracking-wider text-center">Aksi</th>
+                                {{-- <th class="px-6 py-4 text-xs font-medium text-gray-500 uppercase tracking-wider text-center">Aksi</th> --}}
                             </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
@@ -169,7 +154,7 @@
                                             </span>
                                         @endif
                                     </td>
-                                    <td class="px-6 py-4 text-center">
+                                    {{-- <td class="px-6 py-4 text-center">
                                         <div class="inline-flex gap-2">
                                             <a href="{{ route('laporan.edit', $laporan->id) }}"
                                                class="inline-flex items-center px-3 py-1 bg-yellow-100 
@@ -192,7 +177,7 @@
                                                 </button>
                                             </form>
                                         </div>
-                                    </td>
+                                    </td> --}}
                                 </tr>
                             @empty
                                 <tr>
